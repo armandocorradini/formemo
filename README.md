@@ -35,9 +35,14 @@ Puoi anche esportare le tue attività verso Calendario Apple o in formato CSV e 
 
 ForMemo può richiedere l’accesso a:
 
-- **Calendario Apple** → per importare ed esportare eventi
-- **Promemoria Apple** → per importare attività
-- **Notifiche** → per ricordarti attività e scadenze
+- **Calendario Apple** → per importare ed esportare eventi  
+- **Promemoria Apple** → per importare attività  
+- **Notifiche** → per ricordarti attività e scadenze  
+- **Fotocamera** → per scansionare documenti e allegare immagini  
+- **Libreria foto** → per selezionare immagini da allegare alle attività  
+- **Posizione** → per associare luoghi alle attività  
+- **Microfono** → per funzionalità di scansione o input vocale (se utilizzato dal sistema)  
+- **Siri** → per creare attività tramite comandi vocali  
 
 L’accesso è completamente opzionale e avviene solo previa autorizzazione dell’utente.  
 I dati vengono utilizzati esclusivamente all’interno dell’app e non vengono trasmessi a server esterni.
