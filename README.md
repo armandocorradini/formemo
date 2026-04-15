@@ -41,7 +41,7 @@ ForMemo può richiedere l’accesso a:
 - **Fotocamera** → per scansionare documenti e allegare immagini  
 - **Libreria foto** → per selezionare immagini da allegare alle attività  
 - **Posizione** → per associare luoghi alle attività  
-- **Microfono** → per funzionalità di scansione o input vocale (se utilizzato dal sistema)  
+- **Microfono** → per funzionalità input vocale
 - **Siri** → per creare attività tramite comandi vocali  
 
 L’accesso è completamente opzionale e avviene solo previa autorizzazione dell’utente.  
