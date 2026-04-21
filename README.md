@@ -6,6 +6,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività e promemor
 
 - Creazione rapida di attività
 - Promemoria intelligenti (automatici o personalizzati)
+- Promemoria basati sulla posizione (quando arrivi a un luogo)
 - Supporto agli allegati (documenti, immagini, scansioni)
 - Sincronizzazione tra dispositivi (iCloud)
 - Interfaccia personalizzabile
@@ -25,11 +26,14 @@ Crea attività in modo naturale, arricchiscile con allegati e ricevi promemoria 
 
 Puoi scegliere se lasciare a Siri la gestione automatica del promemoria oppure decidere tu quando riceverlo.
 
+Puoi anche associare un luogo a un’attività e ricevere un promemoria automaticamente quando arrivi a destinazione.
+
 Se lo desideri, puoi importare eventi e promemoria dalle app Apple Calendario e Promemoria oppure da file CSV, così da avere tutto in un unico posto.
 
 Puoi anche esportare le tue attività verso Calendario Apple o in formato CSV e ICS per condividerle o utilizzarle in altre app.
 
-> Nota: gli allegati non sono inclusi nelle operazioni di importazione ed esportazione.
+> Nota: gli allegati non sono inclusi nelle operazioni di importazione ed esportazione.  
+> Nota: i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione “Sempre”.
 
 ## 🔐 Permessi
 
@@ -40,7 +44,7 @@ ForMemo può richiedere l’accesso a:
 - **Notifiche** → per ricordarti attività e scadenze  
 - **Fotocamera** → per scansionare documenti e allegare immagini  
 - **Libreria foto** → per selezionare immagini da allegare alle attività  
-- **Posizione** → per associare luoghi alle attività  
+- **Posizione** → per associare luoghi alle attività e ricevere promemoria all’arrivo  
 - **Microfono** → per funzionalità input vocale
 - **Siri** → per creare attività tramite comandi vocali  
 
