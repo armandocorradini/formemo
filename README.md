@@ -10,11 +10,13 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività e promemor
 - Promemoria anticipati configurabili (es. 5 min, 1 ora, 1 giorno prima)
 - Notifica globale opzionale da 1 a 7 giorni prima per tutte le attività
 - Promemoria basati sulla posizione (quando arrivi a un luogo)
+- Visualizzazione su mappa con pin interattivi
 - Supporto Snooze (posticipo rapido delle notifiche)
 - Attività ricorrenti (giornaliere, settimanali, mensili, annuali)
 - Supporto agli allegati (documenti, immagini, scansioni)
 - Sincronizzazione tra dispositivi (iCloud)
 - Interfaccia personalizzabile
+- Evidenziazione intelligente dei task critici (oggi e scaduti)
 - Integrazione con Siri (creazione attività con linguaggio naturale)
 - Supporto multilingua (Italiano, Inglese, Francese, Tedesco, Spagnolo)
 - Importazione da Calendario Apple
@@ -49,6 +51,10 @@ Le attività ricorrenti vengono aggiornate automaticamente al completamento, gen
 Puoi modificare o interrompere la ricorrenza in qualsiasi momento.
 
 Puoi anche associare un luogo a un’attività e ricevere un promemoria automaticamente quando arrivi a destinazione.
+
+Puoi inoltre visualizzare i task direttamente sulla mappa: i task con posizione vengono mostrati come pin e possono essere aperti rapidamente per accedere ai dettagli. La mappa si adatta automaticamente alla prima apertura e mantiene il livello di zoom scelto.
+
+I task con priorità critica, in scadenza oggi o già scaduti, vengono evidenziati per aiutarti a identificare rapidamente gli elementi più urgenti. Puoi personalizzare colore e opacità dell’evidenziazione nelle impostazioni.
 
 Se lo desideri, puoi importare eventi e promemoria dalle app Apple Calendario e Promemoria oppure da file CSV, così da avere tutto in un unico posto.
 
