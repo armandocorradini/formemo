@@ -6,7 +6,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività e promemor
 
 - Creazione rapida di attività
 - Promemoria intelligenti (automatici o personalizzati)
-- Notifica sempre garantita alla scadenza
+- Notifica alla scadenza
 - Promemoria anticipati configurabili (es. 5 min, 1 ora, 1 giorno prima)
 - Notifica globale opzionale da 1 a 7 giorni prima per tutte le attività
 - Promemoria basati sulla posizione (quando arrivi a un luogo)
@@ -32,7 +32,7 @@ ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 
 Crea attività in modo naturale, arricchiscile con allegati e ricevi promemoria intelligenti al momento giusto.
 
-Ogni attività prevede sempre una notifica alla scadenza.  
+Ogni attività prevede una notifica alla scadenza.  
 Puoi scegliere se aggiungere anche un promemoria anticipato oppure ricevere la notifica solo al momento giusto.
 
 Nelle impostazioni puoi anche attivare una notifica globale anticipata per tutte le attività, da 1 a 7 giorni prima della scadenza.
@@ -61,16 +61,16 @@ Se lo desideri, puoi importare eventi e promemoria dalle app Apple Calendario e 
 Puoi anche esportare le tue attività verso Calendario Apple o in formato CSV e ICS per condividerle o utilizzarle in altre app.
 
 > Nota: gli allegati non sono inclusi nelle operazioni di importazione ed esportazione.  
-> Nota: i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione “Sempre”.
+> Nota: i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione “**Sempre**”.
 
 ## 🔔 Notifiche
 
 ForMemo utilizza un sistema di notifiche progettato per essere affidabile e coerente:
 
-- Ogni attività genera sempre una notifica alla scadenza
+- Ogni attività genera una notifica alla scadenza
 - I promemoria anticipati sono opzionali e configurabili per singola attività
 - È possibile attivare una notifica globale per tutte le attività da 1 a 7 giorni prima
-- Le notifiche Snooze rispettano sempre la scadenza (non la superano)
+- Le notifiche Snooze rispettano la scadenza (non la superano)
 - I promemoria vengono aggiornati automaticamente in base alle modifiche
 
 ## 🔐 Permessi
