@@ -18,7 +18,9 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività e promemor
 - Sincronizzazione tra dispositivi (iCloud)
 - Interfaccia personalizzabile
 - Evidenziazione intelligente dei task critici (oggi e scaduti)
-- Integrazione con Siri (creazione attività con linguaggio naturale)
+- Integrazione avanzata con Siri
+- Ricerca attività tramite Siri con parole chiave
+- Visualizzazione attività per data o periodo tramite Siri
 - Supporto multilingua (Italiano, Inglese, Francese, Tedesco, Spagnolo)
 - Importazione da Calendario Apple
 - Importazione da Promemoria Apple
@@ -38,7 +40,7 @@ Puoi scegliere se aggiungere anche un promemoria anticipato oppure ricevere la n
 
 Nelle impostazioni puoi anche attivare una notifica globale anticipata per tutte le attività, da 1 a 7 giorni prima della scadenza.
 
-Grazie all’integrazione con Siri, puoi creare attività con il linguaggio naturale in modo rapido e intuitivo.
+Grazie all’integrazione avanzata con Siri, puoi creare attività con il linguaggio naturale, cercare task tramite parole chiave e chiedere rapidamente cosa hai in programma per oggi, domani, il weekend, la prossima settimana o per una data specifica.
 
 Puoi anche impostare attività ricorrenti, scegliendo una frequenza personalizzata:
 
@@ -90,7 +92,7 @@ ForMemo può richiedere l’accesso a:
 - **Libreria foto** → per selezionare immagini da allegare alle attività  
 - **Posizione** → per associare luoghi alle attività e ricevere promemoria all’arrivo  
 - **Microfono** → per funzionalità di input vocale  
-- **Siri** → per creare attività tramite comandi vocali  
+- **Siri** → per creare attività e cercare promemoria tramite comandi vocali  
 
 L’accesso è completamente opzionale e avviene solo previa autorizzazione dell’utente.  
 I dati vengono utilizzati esclusivamente all’interno dell’app e non vengono trasmessi a server esterni.
