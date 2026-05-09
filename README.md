@@ -12,6 +12,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività e promemor
 - Promemoria basati sulla posizione (quando arrivi a un luogo)
 - Visualizzazione su mappa con pin interattivi
 - Supporto Snooze (posticipo rapido delle notifiche)
+- Supporto Riprogramma (spostamento rapido della scadenza)
 - Attività ricorrenti (giornaliere, settimanali, mensili, annuali)
 - Supporto agli allegati (documenti, immagini, scansioni)
 - Sincronizzazione tra dispositivi (iCloud)
@@ -56,12 +57,16 @@ Puoi inoltre visualizzare i task direttamente sulla mappa: i task con posizione 
 
 I task con priorità critica, in scadenza oggi o già scaduti, vengono evidenziati per aiutarti a identificare rapidamente gli elementi più urgenti. Puoi personalizzare colore e opacità dell’evidenziazione nelle impostazioni.
 
+Puoi utilizzare la funzione Riprogramma per spostare rapidamente la scadenza di un’attività di ore o giorni senza modificare manualmente data e ora.
+
+A differenza dello Snooze, che ritarda temporaneamente una notifica, Riprogramma aggiorna direttamente la scadenza reale del task.
+
 Se lo desideri, puoi importare eventi e promemoria dalle app Apple Calendario e Promemoria oppure da file CSV, così da avere tutto in un unico posto.
 
 Puoi anche esportare le tue attività verso Calendario Apple o in formato CSV e ICS per condividerle o utilizzarle in altre app.
 
 > Nota: gli allegati non sono inclusi nelle operazioni di importazione ed esportazione.  
-> Nota: i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione “**Sempre**”.
+> Nota: i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione “Sempre”.
 
 ## 🔔 Notifiche
 
@@ -71,6 +76,7 @@ ForMemo utilizza un sistema di notifiche progettato per essere affidabile e coer
 - I promemoria anticipati sono opzionali e configurabili per singola attività
 - È possibile attivare una notifica globale per tutte le attività da 1 a 7 giorni prima
 - Le notifiche Snooze rispettano la scadenza (non la superano)
+- Le funzioni Riprogramma modificano direttamente la scadenza dell’attività
 - I promemoria vengono aggiornati automaticamente in base alle modifiche
 
 ## 🔐 Permessi
