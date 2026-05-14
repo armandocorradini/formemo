@@ -9,6 +9,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività e promemor
 - Notifica alla scadenza
 - Promemoria anticipati configurabili (es. 5 min, 1 ora, 1 giorno prima)
 - Notifica globale opzionale da 1 a 7 giorni prima per tutte le attività
+- Gestione personalizzabile del badge app
 - Promemoria basati sulla posizione (quando arrivi a un luogo)
 - Visualizzazione su mappa con pin interattivi
 - Supporto Snooze (posticipo rapido delle notifiche)
@@ -39,6 +40,8 @@ Ogni attività prevede una notifica alla scadenza.
 Puoi scegliere se aggiungere anche un promemoria anticipato oppure ricevere la notifica solo al momento giusto.
 
 Nelle impostazioni puoi anche attivare una notifica globale anticipata per tutte le attività, da 1 a 7 giorni prima della scadenza.
+
+Puoi inoltre scegliere quando il badge dell’app deve aggiornarsi: solo quando le attività scadono oppure già al momento della notifica globale anticipata.
 
 Grazie all’integrazione avanzata con Siri, puoi creare attività con il linguaggio naturale, cercare task tramite parole chiave e chiedere rapidamente cosa hai in programma per oggi, domani, il weekend, la prossima settimana o per una data specifica.
 
@@ -77,6 +80,7 @@ ForMemo utilizza un sistema di notifiche progettato per essere affidabile e coer
 - Ogni attività genera una notifica alla scadenza
 - I promemoria anticipati sono opzionali e configurabili per singola attività
 - È possibile attivare una notifica globale per tutte le attività da 1 a 7 giorni prima
+- Il badge app può aggiornarsi alla scadenza oppure al momento della notifica globale
 - Le notifiche Snooze rispettano la scadenza (non la superano)
 - Le funzioni Riprogramma modificano direttamente la scadenza dell’attività
 - I promemoria vengono aggiornati automaticamente in base alle modifiche
