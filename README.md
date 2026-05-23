@@ -14,8 +14,10 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività e promemor
 - Visualizzazione su mappa con pin interattivi
 - Supporto Snooze (posticipo rapido delle notifiche)
 - Supporto Riprogramma (spostamento rapido della scadenza)
+- Nuova vista Gruppi per organizzare meglio i task
 - Attività ricorrenti (giornaliere, settimanali, mensili, annuali)
-- Supporto agli allegati (documenti, immagini, scansioni)
+- Supporto agli allegati (documenti, immagini, scansioni, audio)
+- Backup & Restore completo con allegati inclusi
 - Sincronizzazione tra dispositivi (iCloud)
 - Interfaccia personalizzabile
 - Evidenziazione intelligente dei task critici (oggi e scaduti)
@@ -60,17 +62,21 @@ Puoi anche associare un luogo a un’attività e ricevere un promemoria automati
 
 Puoi inoltre visualizzare i task direttamente sulla mappa: i task con posizione vengono mostrati come pin e possono essere aperti rapidamente per accedere ai dettagli. La mappa si adatta automaticamente alla prima apertura e mantiene il livello di zoom scelto.
 
+La nuova vista Gruppi ti permette di organizzare le attività in sezioni intelligenti per una gestione più chiara, ordinata e veloce.
+
 I task con priorità critica, in scadenza oggi o già scaduti, vengono evidenziati per aiutarti a identificare rapidamente gli elementi più urgenti. Puoi personalizzare colore e opacità dell’evidenziazione nelle impostazioni.
 
 Puoi utilizzare la funzione Riprogramma per spostare rapidamente la scadenza di un’attività di ore o giorni senza modificare manualmente data e ora.
 
 A differenza dello Snooze, che ritarda temporaneamente una notifica, Riprogramma aggiorna direttamente la scadenza reale del task.
 
+Puoi creare backup completi delle tue attività, inclusi allegati, ricorrenze, promemoria e posizioni, per trasferire facilmente tutti i tuoi dati anche su un altro dispositivo o account Apple.
+
 Se lo desideri, puoi importare eventi e promemoria dalle app Apple Calendario e Promemoria oppure da file CSV, così da avere tutto in un unico posto.
 
 Puoi anche esportare le tue attività verso Calendario Apple o in formato CSV e ICS per condividerle o utilizzarle in altre app.
 
-> Nota: gli allegati non sono inclusi nelle operazioni di importazione ed esportazione.  
+> Nota: gli allegati non sono inclusi nelle operazioni di importazione ed esportazione CSV, ICS, Calendario e Promemoria Apple. Gli allegati sono inclusi solo nei backup completi.  
 > Nota: i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione “Sempre”.
 
 ## 🔔 Notifiche
