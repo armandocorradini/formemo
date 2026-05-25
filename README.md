@@ -1,6 +1,6 @@
 # ForMemo
 
-ForMemo è un'app iOS progettata per aiutarti a organizzare attività e promemoria in modo semplice, intuitivo ed efficace.
+ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemoria e carte fedeltà in modo semplice, intuitivo ed efficace.
 
 ## ✨ Funzionalità
 
@@ -31,6 +31,11 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività e promemor
 - Esportazione verso Calendario Apple
 - Esportazione in formato CSV
 - Esportazione in formato ICS
+- Previsioni meteo integrate nelle viste attività
+- Meteo reale giornaliero con Open-Meteo
+- Wallet integrato per carte fedeltà
+- Scansione barcode delle carte fedeltà tramite fotocamera
+- Visualizzazione rapida dei barcode delle carte salvate
 
 ## 📱 Descrizione
 
@@ -62,6 +67,8 @@ Puoi anche associare un luogo a un’attività e ricevere un promemoria automati
 
 Puoi inoltre visualizzare i task direttamente sulla mappa: i task con posizione vengono mostrati come pin e possono essere aperti rapidamente per accedere ai dettagli. La mappa si adatta automaticamente alla prima apertura e mantiene il livello di zoom scelto.
 
+Le previsioni meteo integrate ti aiutano a visualizzare rapidamente le condizioni previste per oggi, domani e dopodomani direttamente nelle viste attività.
+
 La nuova vista Gruppi ti permette di organizzare le attività in sezioni intelligenti per una gestione più chiara, ordinata e veloce.
 
 I task con priorità critica, in scadenza oggi o già scaduti, vengono evidenziati per aiutarti a identificare rapidamente gli elementi più urgenti. Puoi personalizzare colore e opacità dell’evidenziazione nelle impostazioni.
@@ -70,6 +77,8 @@ Puoi utilizzare la funzione Riprogramma per spostare rapidamente la scadenza di 
 
 A differenza dello Snooze, che ritarda temporaneamente una notifica, Riprogramma aggiorna direttamente la scadenza reale del task.
 
+ForMemo include anche un Wallet integrato per salvare e organizzare carte fedeltà. Puoi aggiungere manualmente una carta oppure scansionarne rapidamente il barcode tramite fotocamera per accedervi in qualsiasi momento.
+
 Puoi creare backup completi delle tue attività, inclusi allegati, ricorrenze, promemoria e posizioni, per trasferire facilmente tutti i tuoi dati anche su un altro dispositivo o account Apple.
 
 Se lo desideri, puoi importare eventi e promemoria dalle app Apple Calendario e Promemoria oppure da file CSV, così da avere tutto in un unico posto.
@@ -77,7 +86,8 @@ Se lo desideri, puoi importare eventi e promemoria dalle app Apple Calendario e 
 Puoi anche esportare le tue attività verso Calendario Apple o in formato CSV e ICS per condividerle o utilizzarle in altre app.
 
 > Nota: gli allegati non sono inclusi nelle operazioni di importazione ed esportazione CSV, ICS, Calendario e Promemoria Apple. Gli allegati sono inclusi solo nei backup completi.  
-> Nota: i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione “Sempre”.
+> Nota: i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione “Sempre”.  
+> Nota: le previsioni meteo richiedono l’autorizzazione alla localizzazione.
 
 ## 🔔 Notifiche
 
@@ -98,9 +108,9 @@ ForMemo può richiedere l’accesso a:
 - **Calendario Apple** → per importare ed esportare eventi  
 - **Promemoria Apple** → per importare attività  
 - **Notifiche** → per ricordarti attività e scadenze  
-- **Fotocamera** → per scansionare documenti e allegare immagini  
+- **Fotocamera** → per scansionare documenti, carte fedeltà e allegare immagini  
 - **Libreria foto** → per selezionare immagini da allegare alle attività  
-- **Posizione** → per associare luoghi alle attività e ricevere promemoria all’arrivo  
+- **Posizione** → per associare luoghi alle attività, visualizzare il meteo e ricevere promemoria all’arrivo  
 - **Microfono** → per funzionalità di input vocale  
 - **Siri** → per creare attività e cercare promemoria tramite comandi vocali  
 
