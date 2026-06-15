@@ -30,7 +30,7 @@ h1, h2 {
 <p>ForMemo non raccoglie, memorizza o condivide dati personali degli utenti su server esterni.</p>
 
 <h2>2. Dati inseriti dall’utente</h2>
-<p>I dati inseriti nell’app (attività, note, allegati, promemoria, carte fedeltà) sono salvati localmente sul dispositivo dell’utente.</p>
+<p>I dati inseriti nell’app (attività, allegati, promemoria, checklist di viaggio, documenti e carte fedeltà) sono salvati localmente sul dispositivo dell’utente.</p>
 <p>Se abilitato, tali dati possono essere sincronizzati tramite servizi Apple (ad esempio iCloud).</p>
 <p>Lo sviluppatore non ha accesso a questi dati.</p>
 
@@ -43,21 +43,23 @@ h1, h2 {
 </ul>
 <p>L’utente può revocare in qualsiasi momento l’autorizzazione dalle impostazioni del dispositivo.</p>
 
-<h2>4. Importazione ed esportazione dei dati</h2>
-<p>L’app consente l’importazione e l’esportazione di dati tramite servizi Apple (Calendario, Promemoria) e file (CSV, ICS).</p>
+<h2>4. Importazione, esportazione, backup e restore</h2>
+<p>L’app consente l’importazione e l’esportazione di dati tramite servizi Apple (Calendario, Promemoria), file (CSV, ICS) e formati proprietari ForMemo.</p>
 <ul>
     <li>I dati importati vengono salvati esclusivamente sul dispositivo dell’utente</li>
     <li>L’esportazione crea copie dei dati nei formati selezionati</li>
-    <li>Gli allegati non sono inclusi nelle operazioni di importazione o esportazione</li>
+    <li>I backup possono includere attività, allegati, documenti, checklist di viaggio, carte fedeltà e dati correlati</li>
+    <li>È disponibile il restore selettivo di specifiche sezioni dei dati</li>
+    <li>Gli allegati non sono inclusi nelle operazioni di importazione o esportazione CSV, ICS, Calendario e Promemoria Apple</li>
 </ul>
 
 <h2>5. Utilizzo dei dati</h2>
-<p>I dati sono utilizzati esclusivamente per fornire le funzionalità dell’app, come la gestione delle attività, degli allegati, delle carte fedeltà e dei promemoria.</p>
+<p>I dati sono utilizzati esclusivamente per fornire le funzionalità dell’app, come la gestione delle attività, degli allegati, delle checklist di viaggio, dei documenti, delle carte fedeltà e dei promemoria.</p>
 
 <h2>6. Notifiche</h2>
 <p>ForMemo utilizza notifiche locali per ricordare attività e scadenze.</p>
 <ul>
-    <li>Ogni attività prevede una notifica alla scadenza</li>
+    <li>Ogni attività genera una notifica alla scadenza</li>
     <li>Possono essere configurati promemoria anticipati opzionali</li>
     <li>È possibile attivare una notifica globale anticipata (da 1 a 7 giorni prima) nelle impostazioni</li>
     <li>Il badge dell’app può aggiornarsi alla scadenza oppure al momento della notifica globale anticipata, in base alle impostazioni scelte dall’utente</li>
@@ -71,12 +73,11 @@ h1, h2 {
 <ul>
     <li>L’accesso avviene solo previa autorizzazione esplicita dell’utente</li>
     <li>I dati di posizione non vengono memorizzati su server esterni</li>
-    <li>Le previsioni meteo vengono ottenute tramite il servizio Open-Meteo utilizzando la posizione del dispositivo</li>
+    <li>Per ottenere le previsioni meteo viene inviata ai servizi Open-Meteo una posizione approssimativa necessaria alla richiesta meteorologica</li>
     <li>Il monitoraggio della posizione è gestito dal sistema operativo iOS</li>
     <li>iOS può limitare il numero di aree monitorate contemporaneamente; per questo motivo solo alcuni promemoria di posizione potrebbero essere attivi</li>
 </ul>
 <p>L’utente può revocare in qualsiasi momento l’autorizzazione dalle impostazioni del dispositivo.</p>
-
 <h2>8. Fotocamera</h2>
 <p>Su richiesta dell’utente, ForMemo può utilizzare la fotocamera del dispositivo per:</p>
 <ul>
@@ -94,7 +95,7 @@ h1, h2 {
 <p>L'app può utilizzare servizi Apple e servizi di terze parti per fornire alcune funzionalità:</p>
 <ul>
     <li>Apple iCloud → sincronizzazione dei dati tra dispositivi</li>
-    <li>Apple Maps o Google Maps → navigazione verso luoghi salvati</li>
+    <li>Apple Maps o altre applicazioni di navigazione installate dall’utente → navigazione verso luoghi salvati</li>
     <li>Open-Meteo → previsioni meteorologiche basate sulla posizione</li>
 </ul>
 <p>Questi servizi possono raccogliere dati secondo le rispettive policy sulla privacy.</p>
@@ -103,7 +104,7 @@ h1, h2 {
 <p>ForMemo non vende né condivide dati personali con terze parti.</p>
 
 <h2>12. Conservazione dei dati</h2>
-<p>I dati rimangono sul dispositivo dell’utente o nei servizi Apple utilizzati per la sincronizzazione.</p>
+<p>I dati rimangono sul dispositivo dell’utente oppure nei servizi Apple utilizzati per la sincronizzazione e il backup, se attivati dall’utente.</p>
 
 <h2>13. Sicurezza</h2>
 <p>La sicurezza dei dati è garantita dai sistemi operativi e dai servizi Apple utilizzati dall’app.</p>
