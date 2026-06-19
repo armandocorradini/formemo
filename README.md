@@ -26,7 +26,8 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 * Wallet per carte fedeltà
 * Scansione barcode tramite fotocamera
 * Backup completo con allegati inclusi
-* Restore selettivo dei backup
+* Backup delle impostazioni dell’app
+* Restore selettivo di dati e impostazioni
 * Sincronizzazione iCloud
 * Integrazione avanzata con Siri
 * Importazione da Calendario Apple
@@ -82,9 +83,15 @@ La sezione Documenti consente di gestire passaporti, carte d’identità, patent
 
 Il Wallet integrato permette di salvare e organizzare carte fedeltà con barcode sempre disponibili e facilmente accessibili.
 
-Puoi creare backup completi di attività, allegati, documenti, carte fedeltà, checklist, ricorrenze, promemoria e posizioni.
+Puoi creare backup completi di attività, promemoria, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, carte fedeltà, loghi, checklist di viaggio e impostazioni dell’app.
+
+Le impostazioni supportate includono preferenze di aspetto, opzioni meteo, impostazioni di navigazione, badge, gestione allegati e altre preferenze dell’app.
 
 È inoltre disponibile il restore selettivo, che permette di ripristinare soltanto le sezioni desiderate senza importare l’intero backup.
+
+Durante il ripristino puoi scegliere in modo indipendente quali dati recuperare, incluse attività, carte fedeltà, checklist di viaggio, documenti e impostazioni dell’app.
+
+I backup sono indipendenti dalla sincronizzazione iCloud e possono essere utilizzati per trasferire facilmente dati e impostazioni su un altro dispositivo.
 
 Puoi importare dati da Calendario Apple, Promemoria Apple e file CSV.
 
@@ -130,6 +137,12 @@ I dati vengono utilizzati esclusivamente all’interno dell’app e non vengono 
 Per supporto o segnalazioni:
 
 📧 formemo.app@gmail.com
+
+🔒 Privacy
+
+Leggi la nostra Privacy Policy:
+
+👉 https://armandocorradini.github.io/formemo/privacy.html
 
 🔒 Privacy
 
