@@ -143,9 +143,3 @@ Per supporto o segnalazioni:
 Leggi la nostra Privacy Policy:
 
 👉 https://armandocorradini.github.io/formemo/privacy.html
-
-🔒 Privacy
-
-Leggi la nostra Privacy Policy:
-
-👉 https://armandocorradini.github.io/formemo/privacy.html
