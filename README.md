@@ -7,6 +7,7 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 * Creazione rapida di attività
 * Promemoria intelligenti e notifiche alla scadenza
 * Promemoria anticipati personalizzabili
+* Dashboard con attività in ritardo, attività previste per oggi, attività imminenti, meteo ed elementi aperti di recente
 * Notifica globale opzionale da 1 a 7 giorni prima
 * Gestione personalizzabile del badge app
 * Promemoria basati sulla posizione
@@ -41,6 +42,8 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 📱 Descrizione
 
 ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
+
+La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio.
 
 Crea attività in modo naturale, arricchiscile con allegati, organizza documenti importanti, prepara checklist di viaggio e ricevi promemoria intelligenti al momento giusto.
 
