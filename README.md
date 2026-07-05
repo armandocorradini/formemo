@@ -8,21 +8,25 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 * Promemoria intelligenti e notifiche alla scadenza
 * Promemoria anticipati personalizzabili
 * Dashboard con attività in ritardo, attività previste per oggi, attività imminenti, meteo ed elementi aperti di recente
+* Nuova vista Riepilogo con panoramica immediata di attività, documenti, Wallet e checklist
 * Notifica globale opzionale da 1 a 7 giorni prima
 * Gestione personalizzabile del badge app
 * Promemoria basati sulla posizione
 * Visualizzazione attività su mappa con pin interattivi
 * Supporto Snooze e Riprogramma
+* Snooze manuale per attività già scadute
 * Attività ricorrenti giornaliere, settimanali, mensili e annuali
 * Filtri avanzati per categoria, priorità e scadenza
 * Supporto alle attività senza scadenza
 * Vista Lista, Gruppi, Settimanale e Calendario
+* Stile delle righe delle attività completamente personalizzabile (angoli, bordi e materiali)
 * Evidenziazione intelligente delle attività importanti
 * Allegati completi (documenti, immagini, scansioni e audio)
 * Checklist di viaggio personalizzabili
 * Modelli pronti all’uso per checklist
 * Importazione ed esportazione checklist
 * Gestione documenti e scadenze
+* Posizione per i documenti con visualizzazione sulla mappa
 * Previsioni meteo integrate
 * Wallet per carte fedeltà e tickets
 * Scansione barcode tramite fotocamera
@@ -45,6 +49,8 @@ ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 
 La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio.
 
+La nuova vista Riepilogo raccoglie in un’unica schermata le informazioni più importanti dell’app, permettendoti di avere sempre sotto controllo attività, documenti, Wallet e checklist.
+
 Crea attività in modo naturale, arricchiscile con allegati, organizza documenti importanti, prepara checklist di viaggio e ricevi promemoria intelligenti al momento giusto.
 
 Ogni attività genera automaticamente una notifica alla scadenza.
@@ -66,6 +72,8 @@ Le attività ricorrenti vengono aggiornate automaticamente al completamento gene
 
 Puoi associare una posizione a un’attività e ricevere automaticamente un promemoria quando arrivi a destinazione.
 
+Anche i documenti possono essere associati a una posizione, così da poterli localizzare facilmente e visualizzarli direttamente sulla mappa.
+
 Le attività con posizione possono essere visualizzate su una mappa interattiva con pin dedicati e accesso rapido ai dettagli.
 
 Le previsioni meteo integrate permettono di consultare rapidamente le condizioni previste direttamente nelle viste attività.
@@ -74,15 +82,17 @@ I filtri avanzati consentono di individuare rapidamente attività per categoria,
 
 Le viste Lista, Gruppi, Settimanale e Calendario offrono modalità diverse per organizzare e consultare le tue attività.
 
+Puoi personalizzare completamente l’aspetto delle righe delle attività scegliendo angoli arrotondati, bordi, materiali e diversi stili grafici, adattando l’interfaccia alle tue preferenze.
+
 Le attività critiche, in scadenza o già scadute possono essere evidenziate automaticamente per aiutarti a individuare subito ciò che richiede attenzione.
 
 La funzione Riprogramma permette di spostare rapidamente una scadenza di ore o giorni senza modificare manualmente data e ora.
 
-A differenza dello Snooze, che ritarda temporaneamente una notifica, Riprogramma aggiorna direttamente la scadenza reale dell’attività.
+A differenza dello Snooze, che ritarda temporaneamente una notifica, Riprogramma aggiorna direttamente la scadenza reale dell’attività. Per le attività già scadute è inoltre disponibile uno Snooze manuale che consente di posticipare rapidamente il promemoria senza modificare immediatamente la pianificazione.
 
 ForMemo include Checklist di Viaggio avanzate per vacanze, camper, auto, moto, bicicletta, trekking, fotografia e molte altre attività. Puoi creare modelli personalizzati, organizzare sezioni e condividere facilmente le checklist.
 
-La sezione Documenti consente di gestire passaporti, carte d’identità, patenti, assicurazioni, tessere e qualsiasi altro documento importante, monitorandone le scadenze e ricevendo promemoria automatici.
+La sezione Documenti consente di gestire passaporti, carte d’identità, patenti, assicurazioni, tessere e qualsiasi altro documento importante, monitorandone le scadenze, ricevendo promemoria automatici e associando una posizione per individuarli rapidamente.
 
 Il Wallet integrato permette di salvare e organizzare carte fedeltà con barcode sempre disponibili e facilmente accessibili.
 
@@ -115,6 +125,7 @@ ForMemo utilizza un sistema di notifiche progettato per essere affidabile e coer
 * È possibile attivare una notifica globale per tutte le attività da 1 a 7 giorni prima
 * Il badge può aggiornarsi alla scadenza oppure al momento della notifica globale
 * Le notifiche Snooze rispettano la scadenza dell’attività
+* È disponibile uno Snooze manuale anche per le attività già scadute
 * Riprogramma modifica direttamente la scadenza reale
 * I promemoria vengono aggiornati automaticamente dopo ogni modifica
 
@@ -127,7 +138,7 @@ ForMemo può richiedere l’accesso a:
 * Notifiche → per ricordarti attività e scadenze
 * Fotocamera → per scansionare documenti, barcode, carte fedeltà e allegare immagini
 * Libreria foto → per selezionare immagini da allegare alle attività
-* Posizione → per associare luoghi alle attività, visualizzare il meteo e ricevere promemoria all’arrivo
+* Posizione → per associare luoghi ad attività e documenti, visualizzare il meteo e ricevere promemoria all’arrivo
 * Microfono → per funzionalità di input vocale
 * Siri → per creare e cercare attività tramite comandi vocali
 
