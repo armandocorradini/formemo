@@ -26,7 +26,7 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 * Modelli pronti all’uso per checklist
 * Importazione ed esportazione checklist
 * Gestione documenti e scadenze
-* Posizione per i documenti con visualizzazione sulla mappa
+* Nuovo campo in documenti per ricordare dove sono
 * Previsioni meteo integrate
 * Wallet per carte fedeltà e tickets
 * Scansione barcode tramite fotocamera
@@ -72,7 +72,7 @@ Le attività ricorrenti vengono aggiornate automaticamente al completamento gene
 
 Puoi associare una posizione a un’attività e ricevere automaticamente un promemoria quando arrivi a destinazione.
 
-Anche i documenti possono essere associati a una posizione, così da poterli localizzare facilmente e visualizzarli direttamente sulla mappa.
+Anche i documenti possono essere trovati facilmente salvando la posizione in cui sono collocati (cassetto credenza, mobile basso, ...).
 
 Le attività con posizione possono essere visualizzate su una mappa interattiva con pin dedicati e accesso rapido ai dettagli.
 
@@ -92,7 +92,7 @@ A differenza dello Snooze, che ritarda temporaneamente una notifica, Riprogramma
 
 ForMemo include Checklist di Viaggio avanzate per vacanze, camper, auto, moto, bicicletta, trekking, fotografia e molte altre attività. Puoi creare modelli personalizzati, organizzare sezioni e condividere facilmente le checklist.
 
-La sezione Documenti consente di gestire passaporti, carte d’identità, patenti, assicurazioni, tessere e qualsiasi altro documento importante, monitorandone le scadenze, ricevendo promemoria automatici e associando una posizione per individuarli rapidamente.
+La sezione Documenti consente di gestire passaporti, carte d’identità, patenti, assicurazioni, tessere e qualsiasi altro documento importante, monitorandone le scadenze, ricevendo promemoria automatici e associando una collocazione per individuarli rapidamente.
 
 Il Wallet integrato permette di salvare e organizzare carte fedeltà con barcode sempre disponibili e facilmente accessibili.
 
@@ -138,7 +138,7 @@ ForMemo può richiedere l’accesso a:
 * Notifiche → per ricordarti attività e scadenze
 * Fotocamera → per scansionare documenti, barcode, carte fedeltà e allegare immagini
 * Libreria foto → per selezionare immagini da allegare alle attività
-* Posizione → per associare luoghi ad attività e documenti, visualizzare il meteo e ricevere promemoria all’arrivo
+* Posizione →     Posizione → per associare luoghi alle attività, visualizzare il meteo e ricevere promemoria all’arrivo
 * Microfono → per funzionalità di input vocale
 * Siri → per creare e cercare attività tramite comandi vocali
 
