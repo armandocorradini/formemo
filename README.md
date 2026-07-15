@@ -1,14 +1,14 @@
-ForMemo
+# ForMemo
 
-ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemoria, checklist di viaggio, documenti e carte fedeltà in modo semplice, intuitivo ed efficace.
+ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemoria, checklist di viaggio, documenti, carte fedeltà e credenziali personali in modo semplice, intuitivo ed efficace.
 
-✨ Funzionalità
+## ✨ Funzionalità
 
 * Creazione rapida di attività
 * Promemoria intelligenti e notifiche alla scadenza
 * Promemoria anticipati personalizzabili
 * Dashboard con attività in ritardo, attività previste per oggi, attività imminenti, meteo ed elementi aperti di recente
-* Nuova vista Riepilogo con panoramica immediata di attività, documenti, Wallet e checklist
+* Nuova vista Riepilogo con conteggio di attività, documenti, Wallet e checklist
 * Notifica globale opzionale da 1 a 7 giorni prima
 * Gestione personalizzabile del badge app
 * Promemoria basati sulla posizione
@@ -26,7 +26,14 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 * Modelli pronti all’uso per checklist
 * Importazione ed esportazione checklist
 * Gestione documenti e scadenze
-* Nuovo campo in documenti per ricordare dove sono
+* Nuovo campo nei documenti per ricordare dove sono conservati
+* Cassaforte per salvare credenziali, password, siti web, email e note in modo sicuro
+* Inserimento automatico delle credenziali nelle app e nei siti web supportati
+* Generatore di password sicure
+* Preferiti e monitoraggio aggiornamento/scadenza password
+* Cancellazione automatica delle password copiate dagli appunti
+* Backup completo con protezione della Cassaforte tramite password
+* Ripristino selettivo della sola Cassaforte
 * Previsioni meteo integrate
 * Wallet per carte fedeltà e tickets
 * Scansione barcode tramite fotocamera
@@ -43,7 +50,7 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 * Esportazione in ICS
 * Supporto multilingua (Italiano, Inglese, Francese, Tedesco e Spagnolo)
 
-📱 Descrizione
+# 📱 Descrizione
 
 ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 
@@ -72,7 +79,7 @@ Le attività ricorrenti vengono aggiornate automaticamente al completamento gene
 
 Puoi associare una posizione a un’attività e ricevere automaticamente un promemoria quando arrivi a destinazione.
 
-Anche i documenti possono essere trovati facilmente salvando la posizione in cui sono collocati (cassetto credenza, mobile basso, ...).
+Anche i documenti possono essere trovati facilmente salvando la posizione in cui sono collocati (cassetto, armadio, cartella, cassaforte...).
 
 Le attività con posizione possono essere visualizzate su una mappa interattiva con pin dedicati e accesso rapido ai dettagli.
 
@@ -96,13 +103,29 @@ La sezione Documenti consente di gestire passaporti, carte d’identità, patent
 
 Il Wallet integrato permette di salvare e organizzare carte fedeltà con barcode sempre disponibili e facilmente accessibili.
 
-Puoi creare backup completi di attività, promemoria, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, carte fedeltà, loghi, tickets, checklist di viaggio e impostazioni dell’app.
+## 🔐 Cassaforte
+
+La Cassaforte ti permette di archiviare in modo sicuro nomi utente, indirizzi email, siti web, password e note personali.
+
+Puoi generare password sicure, contrassegnare le credenziali preferite e monitorare facilmente gli aggiornamenti o le date di scadenza delle password.
+
+L'accesso alla Cassaforte e la visualizzazione delle password possono essere protetti tramite Face ID, Touch ID o il codice di sblocco del dispositivo.
+
+ForMemo supporta inoltre l'Inserimento automatico delle credenziali nelle app e nei siti web compatibili di iOS, permettendoti di accedere rapidamente ai tuoi account.
+
+Per una maggiore sicurezza puoi scegliere di cancellare automaticamente dagli appunti le password copiate dopo un intervallo di tempo configurabile.
+
+I backup possono includere anche i dati della Cassaforte. Durante la creazione del backup scegli una password dedicata, richiesta esclusivamente per il ripristino della Cassaforte. Questa password non può essere recuperata da ForMemo.
+
+Durante il ripristino puoi scegliere di recuperare soltanto la Cassaforte oppure qualsiasi altra combinazione di dati dell'app.
+
+Puoi creare backup completi di attività, promemoria, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, carte fedeltà, loghi, tickets, checklist di viaggio, dati della Cassaforte e impostazioni dell’app.
 
 Le impostazioni supportate includono preferenze di aspetto, opzioni meteo, impostazioni di navigazione, badge, gestione allegati e altre preferenze dell’app.
 
 È inoltre disponibile il restore selettivo, che permette di ripristinare soltanto le sezioni desiderate senza importare l’intero backup.
 
-Durante il ripristino puoi scegliere in modo indipendente quali dati recuperare, incluse attività, carte fedeltà e tickets, checklist di viaggio, documenti e impostazioni dell’app.
+Durante il ripristino puoi scegliere in modo indipendente quali dati recuperare, incluse attività, Cassaforte, carte fedeltà e tickets, checklist di viaggio, documenti e impostazioni dell’app.
 
 I backup sono indipendenti dalla sincronizzazione iCloud e possono essere utilizzati per trasferire facilmente dati e impostazioni su un altro dispositivo.
 
@@ -110,13 +133,15 @@ Puoi importare dati da Calendario Apple, Promemoria Apple e file CSV.
 
 Puoi esportare attività verso Calendario Apple oppure nei formati CSV e ICS.
 
-Nota: gli allegati non sono inclusi nelle operazioni di importazione ed esportazione CSV, ICS, Calendario e Promemoria Apple. Gli allegati sono inclusi esclusivamente nei backup completi.
+**Nota:** gli allegati non sono inclusi nelle operazioni di importazione ed esportazione CSV, ICS, Calendario e Promemoria Apple. Gli allegati sono inclusi esclusivamente nei backup completi.
 
-Nota: i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione “Sempre”.
+**Nota:** i dati della Cassaforte sono protetti durante il ripristino da una password scelta al momento della creazione del backup. Tale password non può essere recuperata.
 
-Nota: le previsioni meteo richiedono l’autorizzazione alla localizzazione.
+**Nota:** i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione "Sempre".
 
-🔔 Notifiche
+**Nota:** le previsioni meteo richiedono l’autorizzazione alla localizzazione.
+
+# 🔔 Notifiche
 
 ForMemo utilizza un sistema di notifiche progettato per essere affidabile e coerente:
 
@@ -129,7 +154,7 @@ ForMemo utilizza un sistema di notifiche progettato per essere affidabile e coer
 * Riprogramma modifica direttamente la scadenza reale
 * I promemoria vengono aggiornati automaticamente dopo ogni modifica
 
-🔐 Permessi
+# 🔐 Permessi
 
 ForMemo può richiedere l’accesso a:
 
@@ -138,21 +163,22 @@ ForMemo può richiedere l’accesso a:
 * Notifiche → per ricordarti attività e scadenze
 * Fotocamera → per scansionare documenti, barcode, carte fedeltà e allegare immagini
 * Libreria foto → per selezionare immagini da allegare alle attività
-* Posizione →     Posizione → per associare luoghi alle attività, visualizzare il meteo e ricevere promemoria all’arrivo
+* Posizione → per associare luoghi alle attività, visualizzare il meteo e ricevere promemoria all’arrivo
 * Microfono → per funzionalità di input vocale
 * Siri → per creare e cercare attività tramite comandi vocali
+* Inserimento automatico → per compilare automaticamente le credenziali salvate nella Cassaforte nelle app e nei siti web compatibili
 
 L’accesso è completamente opzionale e avviene solo previa autorizzazione dell’utente.
 
 I dati vengono utilizzati esclusivamente all’interno dell’app e non vengono trasmessi a server esterni.
 
-🛠 Supporto
+# 🛠 Supporto
 
 Per supporto o segnalazioni:
 
 📧 formemo.app@gmail.com
 
-🔒 Privacy
+# 🔒 Privacy
 
 Leggi la nostra Privacy Policy:
 
