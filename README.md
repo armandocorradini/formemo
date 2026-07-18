@@ -8,7 +8,7 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 * Promemoria intelligenti e notifiche alla scadenza
 * Promemoria anticipati personalizzabili
 * Dashboard con attività in ritardo, attività previste per oggi, attività imminenti, meteo ed elementi aperti di recente
-* Nuova vista Riepilogo con conteggio di attività, documenti, Wallet e checklist
+* Nuova vista Riepilogo con attività, documenti, Wallet, checklist e Cassaforte
 * Notifica globale opzionale da 1 a 7 giorni prima
 * Gestione personalizzabile del badge app
 * Promemoria basati sulla posizione
@@ -27,10 +27,10 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 * Importazione ed esportazione checklist
 * Gestione documenti e scadenze
 * Nuovo campo nei documenti per ricordare dove sono conservati
-* Cassaforte per salvare credenziali, password, siti web, email e note in modo sicuro
+* Cassaforte per password, siti web, email, nomi utente, PIN, codici OTP, codici di recupero, domande di sicurezza e note
 * Inserimento automatico delle credenziali nelle app e nei siti web supportati
-* Generatore di password sicure
-* Preferiti e monitoraggio aggiornamento/scadenza password
+* Generatore di password, cronologia password, OTP e monitoraggio scadenze
+* Autenticazione biometrica e blocco automatico della Cassaforte
 * Cancellazione automatica delle password copiate dagli appunti
 * Backup completo con protezione della Cassaforte tramite password
 * Ripristino selettivo della sola Cassaforte
@@ -56,7 +56,7 @@ ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 
 La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio.
 
-La nuova vista Riepilogo raccoglie in un’unica schermata le informazioni più importanti dell’app, permettendoti di avere sempre sotto controllo attività, documenti, Wallet e checklist.
+La nuova vista Riepilogo raccoglie in un’unica schermata attività, documenti, Wallet, checklist e Cassaforte.
 
 Crea attività in modo naturale, arricchiscile con allegati, organizza documenti importanti, prepara checklist di viaggio e ricevi promemoria intelligenti al momento giusto.
 
@@ -105,11 +105,11 @@ Il Wallet integrato permette di salvare e organizzare carte fedeltà con barcode
 
 ## 🔐 Cassaforte
 
-La Cassaforte ti permette di archiviare in modo sicuro nomi utente, indirizzi email, siti web, password e note personali.
+La Cassaforte ti permette di archiviare in modo sicuro password, nomi utente, indirizzi email, siti web, PIN, codici OTP, codici di recupero, domande di sicurezza e note personali.
 
-Puoi generare password sicure, contrassegnare le credenziali preferite e monitorare facilmente gli aggiornamenti o le date di scadenza delle password.
+Puoi generare password sicure, gestire codici OTP, monitorare la cronologia e le scadenze delle password e contrassegnare le credenziali preferite.
 
-L'accesso alla Cassaforte e la visualizzazione delle password possono essere protetti tramite Face ID, Touch ID o il codice di sblocco del dispositivo.
+L'accesso alla Cassaforte può essere protetto tramite Face ID, Touch ID o il codice del dispositivo. È inoltre disponibile il blocco automatico dopo un periodo di inattività.
 
 ForMemo supporta inoltre l'Inserimento automatico delle credenziali nelle app e nei siti web compatibili di iOS, permettendoti di accedere rapidamente ai tuoi account.
 
