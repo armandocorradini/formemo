@@ -1,6 +1,6 @@
 # ForMemo
 
-ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemoria, checklist di viaggio, documenti, carte fedeltà e credenziali personali in modo semplice, intuitivo ed efficace.
+ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemoria, checklist di viaggio, documenti, carte fedeltà, biglietti e credenziali personali in modo semplice, intuitivo ed efficace.
 
 ## ✨ Funzionalità
 
@@ -18,18 +18,21 @@ ForMemo è un’app iOS progettata per aiutarti a organizzare attività, promemo
 * Attività ricorrenti giornaliere, settimanali, mensili e annuali
 * Filtri avanzati per categoria, priorità e scadenza
 * Supporto alle attività senza scadenza
-* Vista Lista, Gruppi, Settimanale e Calendario
+* Vista Lista, 1–7 Giorni, Gruppi, Settimanale, Calendario e Mappa
 * Stile delle righe delle attività completamente personalizzabile (angoli, bordi e materiali)
 * Evidenziazione intelligente delle attività importanti
 * Allegati completi (documenti, immagini, scansioni e audio)
-* Checklist di viaggio personalizzabili
+* Checklist di Viaggio organizzate in sezioni e basate su modelli personalizzabili
 * Modelli pronti all’uso per checklist
 * Importazione ed esportazione checklist
 * Gestione documenti e scadenze
 * Nuovo campo nei documenti per ricordare dove sono conservati
-* Cassaforte per password, siti web, email, nomi utente, PIN, codici OTP, codici di recupero, domande di sicurezza e note
+* Cassaforte per password, siti web, email, nomi utente, PIN, segreti OTP, note e segreti personalizzati
 * Inserimento automatico delle credenziali nelle app e nei siti web supportati
-* Generatore di password, cronologia password, OTP e monitoraggio scadenze
+* Importazione delle credenziali da gestori di password compatibili
+* Generatore di password, categorie, preferiti, monitoraggio aggiornamenti e scadenze delle password
+* Importazione di credenziali da gestori di password compatibili
+* Organizzazione delle credenziali in categorie e preferiti
 * Autenticazione biometrica e blocco automatico della Cassaforte
 * Cancellazione automatica delle password copiate dagli appunti
 * Backup completo con protezione della Cassaforte tramite password
@@ -56,7 +59,7 @@ ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 
 La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio.
 
-La nuova vista Riepilogo raccoglie in un’unica schermata attività, documenti, Wallet, checklist e Cassaforte.
+La nuova vista Riepilogo raccoglie in un’unica schermata attività, documenti, Wallet, viaggi e Cassaforte.
 
 Crea attività in modo naturale, arricchiscile con allegati, organizza documenti importanti, prepara checklist di viaggio e ricevi promemoria intelligenti al momento giusto.
 
@@ -105,9 +108,11 @@ Il Wallet integrato permette di salvare e organizzare carte fedeltà con barcode
 
 ## 🔐 Cassaforte
 
-La Cassaforte ti permette di archiviare in modo sicuro password, nomi utente, indirizzi email, siti web, PIN, codici OTP, codici di recupero, domande di sicurezza e note personali.
+La Cassaforte ti permette di archiviare in modo sicuro password, nomi utente, indirizzi email, siti web, PIN, segreti OTP, note e segreti personalizzati. Puoi organizzare le credenziali in categorie, contrassegnarle come preferite e conservarle protette mediante l'autenticazione del dispositivo.
 
-Puoi generare password sicure, gestire codici OTP, monitorare la cronologia e le scadenze delle password e contrassegnare le credenziali preferite.
+Puoi generare password robuste, monitorarne gli aggiornamenti e le scadenze e utilizzare più segreti personalizzati per ogni credenziale.
+
+La Cassaforte supporta inoltre l'importazione di credenziali da gestori di password compatibili, facilitando il trasferimento dei tuoi account esistenti.
 
 L'accesso alla Cassaforte può essere protetto tramite Face ID, Touch ID o il codice del dispositivo. È inoltre disponibile il blocco automatico dopo un periodo di inattività.
 
