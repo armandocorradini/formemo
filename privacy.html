@@ -7,7 +7,7 @@
 
 <style>Privacy Policy
 
-Ultimo aggiornamento: 18 luglio 2026
+Ultimo aggiornamento: 27 luglio 2026
 
 ForMemo ("l'app") è progettata per rispettare la tua privacy. L'app non raccoglie dati personali e non trasmette informazioni a server controllati dallo sviluppatore.
 
@@ -17,7 +17,7 @@ ForMemo non raccoglie, memorizza o condivide dati personali degli utenti su serv
 
 2. Dati inseriti dall’utente
 
-I dati inseriti nell’app (attività, promemoria, allegati, checklist di viaggio, documenti, carte fedeltà, tickets, dati della Cassaforte, impostazioni e dati correlati) vengono salvati localmente sul dispositivo dell’utente.
+I dati inseriti nell’app (attività, promemoria, allegati, checklist di viaggio, documenti, carte fedeltà, biglietti, dati della Cassaforte, impostazioni e dati correlati) vengono salvati localmente sul dispositivo dell’utente.
 
 I dati della Cassaforte vengono archiviati utilizzando i meccanismi di sicurezza forniti da iOS. Le informazioni sensibili sono protette mediante crittografia AES-256 e le chiavi di protezione vengono gestite tramite il Portachiavi (Keychain) di iOS.
 
@@ -142,6 +142,11 @@ La sicurezza dei dati dipende principalmente dalle protezioni offerte dal sistem
 
 La Cassaforte utilizza una protezione multilivello basata sulle API di sicurezza di Apple, sulla crittografia AES-256 e sul Portachiavi (Keychain) di iOS.
 
+    <p>
+La protezione della Cassaforte utilizza esclusivamente le API di sicurezza messe a disposizione da Apple. Le informazioni sensibili non vengono trasmesse a server controllati dallo sviluppatore.
+
+</p>
+    
 I dati della Cassaforte possono essere protetti tramite Face ID, Touch ID o il codice di sblocco del dispositivo.
 
 Quando inclusi nei backup, i dati della Cassaforte richiedono una password scelta dall’utente per poter essere ripristinati.
@@ -156,7 +161,7 @@ Visualizzare i propri dati
 Modificare i propri dati
 Eliminare i propri dati
 Esportare i propri dati
-Esportare e ripristinare in modo indipendente i dati della Cassaforte
+Esportare, importare e ripristinare i dati della Cassaforte mediante le funzionalità supportate dall'app.
 Creare backup completi protetti da password
 Creare backup dei propri dati
 Revocare i permessi concessi all’app tramite le impostazioni del dispositivo
@@ -248,12 +253,14 @@ L’app consente l’importazione e l’esportazione di dati tramite servizi App
 
 <li>L’esportazione crea copie dei dati nei formati selezionati</li>
 
-<li>I backup possono includere attività, promemoria, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, checklist di viaggio, carte fedeltà, tickets, loghi, dati della Cassaforte, impostazioni dell’app e dati correlati</li>
+<li>I backup possono includere attività, promemoria, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, viaggi, carte fedeltà, tickets, loghi, dati della Cassaforte, impostazioni dell’app e dati correlati</li>
 
 <li>Quando il backup include la Cassaforte, l’utente sceglie una password necessaria esclusivamente per il ripristino dei dati della Cassaforte</li>
 
 <li>La password utilizzata per proteggere la Cassaforte nel backup non viene memorizzata, trasmessa né può essere recuperata dallo sviluppatore</li>
 
+<li>I backup della Cassaforte sono destinati esclusivamente alla portabilità dei dati tra dispositivi e installazioni compatibili.</li>
+    
 <li>Durante il ripristino è possibile ripristinare la sola Cassaforte oppure qualsiasi combinazione delle categorie di dati supportate</li>
 
 <li>Le impostazioni dell’app possono essere incluse nei backup e ripristinate separatamente dai dati</li>
@@ -272,7 +279,7 @@ I backup sono indipendenti dalla sincronizzazione iCloud e possono essere utiliz
 <h2>5. Utilizzo dei dati</h2>
 
 <p>
-I dati sono utilizzati esclusivamente per fornire le funzionalità dell’app, come la gestione delle attività, dei promemoria, degli allegati, delle checklist di viaggio, dei documenti, delle relative posizioni di conservazione, delle carte fedeltà, dei tickets, della Cassaforte, delle notifiche, della Dashboard, della vista Riepilogo e delle impostazioni.
+I dati sono utilizzati esclusivamente per fornire le funzionalità dell’app, come la gestione delle attività, dei promemoria, degli allegati, delle liste di viaggio, dei documenti, delle relative posizioni di conservazione, delle carte fedeltà, dei tickets, della Cassaforte, delle notifiche, della Dashboard, della vista Riepilogo e delle impostazioni.
 </p>
 <p>
 <p>
@@ -282,7 +289,7 @@ La Dashboard e la vista Riepilogo possono utilizzare i dati già presenti nell�
  <h2>6. Cassaforte e Inserimento automatico</h2>
 
 <p>
-La Cassaforte consente di archiviare credenziali personali come nomi utente, indirizzi email, siti web, password e note.
+La Cassaforte consente di archiviare credenziali personali quali nomi utente, indirizzi email, siti web, password, PIN, segreti OTP, note e segreti personalizzati.
 </p>
 
 <ul>
@@ -302,6 +309,14 @@ La Cassaforte consente di archiviare credenziali personali come nomi utente, ind
 <li>Le credenziali utilizzate tramite Inserimento automatico sono gestite dal sistema operativo iOS</li>
 
 <li>Le password copiate negli appunti possono essere eliminate automaticamente dopo l’intervallo scelto dall’utente</li>
+
+<li>Le credenziali possono essere organizzate in categorie e contrassegnate come preferite.</li>
+
+<li>Ogni elemento della Cassaforte può contenere uno o più segreti personalizzati con etichette definite dall'utente.</li>
+
+<li>La Cassaforte include un generatore di password per creare credenziali robuste.</li>
+
+<li>È possibile importare credenziali da gestori di password compatibili utilizzando i formati supportati dall'app.</li>
 
 </ul> 
     
