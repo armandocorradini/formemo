@@ -78,7 +78,7 @@ ForMemo supporta attività ricorrenti con frequenza:
 * Mensile
 * Annuale
 
-Le attività ricorrenti vengono aggiornate automaticamente al completamento generando la successiva occorrenza.
+Le attività ricorrenti vengono aggiornate automaticamente al completamento, generando la successiva occorrenza. Una nuova impostazione consente inoltre di scegliere se conservare la cronologia delle occorrenze completate oppure mantenere una sola attività, aggiornata di volta in volta alla ricorrenza successiva.
 
 Puoi associare una posizione a un’attività e ricevere automaticamente un promemoria quando arrivi a destinazione.
 
