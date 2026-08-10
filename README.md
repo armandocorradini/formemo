@@ -27,6 +27,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Importazione ed esportazione checklist
 * Gestione documenti e scadenze
 * Nuovo campo nei documenti per ricordare dove sono conservati
+* Possibilità di allegare ai documenti immagini, foto, scansioni e pdf.
 * Cassaforte per password, siti web, email, nomi utente, PIN, segreti OTP, note e segreti personalizzati
 * Inserimento automatico delle credenziali nelle app e nei siti web supportati
 * Importazione delle credenziali da gestori di password compatibili
@@ -34,11 +35,11 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Importazione di credenziali da gestori di password compatibili
 * Organizzazione delle credenziali in categorie e preferiti
 * Autenticazione biometrica e blocco automatico della Cassaforte
-* Cancellazione automatica delle password copiate dagli appunti
+* Cancellazione automatica delle password copiate negli appunti
 * Backup completo con protezione della Cassaforte tramite password
 * Ripristino selettivo della sola Cassaforte
 * Previsioni meteo integrate
-* Wallet per carte fedeltà e tickets
+* Wallet per carte fedeltà e tickets, personalizzabili con delle immagini.
 * Scansione barcode tramite fotocamera
 * Backup completo con allegati inclusi
 * Backup delle impostazioni dell’app
