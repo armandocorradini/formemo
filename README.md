@@ -39,12 +39,12 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Backup completo con protezione della Cassaforte tramite password
 * Ripristino selettivo della sola Cassaforte
 * Previsioni meteo integrate
-* Wallet per carte fedeltà e tickets, personalizzabili con delle immagini.
+* Wallet per carte fedeltà e biglietti, con barcode, QR Code e una o più foto per ogni elemento.
 * Scansione barcode tramite fotocamera
 * Backup completo con allegati inclusi
 * Backup delle impostazioni dell’app
 * Restore selettivo di dati e impostazioni
-* Sincronizzazione iCloud
+* Sincronizzazione automatica tramite iCloud quando disponibile
 * Integrazione avanzata con Siri
 * Importazione da Calendario Apple
 * Importazione da Promemoria Apple
@@ -133,7 +133,7 @@ Le impostazioni supportate includono preferenze di aspetto, opzioni meteo, impos
 
 Durante il ripristino puoi scegliere in modo indipendente quali dati recuperare, incluse attività, Cassaforte, carte fedeltà e tickets, checklist di viaggio, documenti e impostazioni dell’app.
 
-I backup sono indipendenti dalla sincronizzazione iCloud e possono essere utilizzati per trasferire facilmente dati e impostazioni su un altro dispositivo.
+I backup sono indipendenti dalla sincronizzazione iCloud e possono essere utilizzati per trasferire facilmente dati e impostazioni su un altro dispositivo. I dati vengono archiviati sul dispositivo e, quando iCloud è disponibile, sincronizzati con il tuo account iCloud personale.
 
 Puoi importare dati da Calendario Apple, Promemoria Apple e file CSV.
 
@@ -176,7 +176,7 @@ ForMemo può richiedere l’accesso a:
 
 L’accesso è completamente opzionale e avviene solo previa autorizzazione dell’utente.
 
-I dati vengono utilizzati esclusivamente all’interno dell’app e non vengono trasmessi a server esterni.
+I dati vengono gestiti all’interno dell’app e, quando iCloud è disponibile, sincronizzati con il tuo account iCloud personale. ForMemo non gestisce server propri e non accede ai tuoi dati.
 
 # 🛠 Supporto
 
