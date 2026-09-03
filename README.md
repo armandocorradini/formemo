@@ -1,6 +1,6 @@
 # ForMemo
 
-ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemoria, checklist di viaggio, documenti, carte fedeltà, biglietti e credenziali personali in modo semplice, intuitivo ed efficace.
+ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemoria, note, checklist di viaggio, documenti, carte fedeltà, biglietti e credenziali personali in modo semplice, intuitivo ed efficace.
 
 ## ✨ Funzionalità
 
@@ -8,7 +8,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Promemoria intelligenti e notifiche alla scadenza
 * Promemoria anticipati personalizzabili
 * Dashboard con attività in ritardo, attività previste per oggi, attività imminenti, meteo ed elementi aperti di recente
-* Nuova vista Riepilogo con attività, documenti, Wallet, checklist e Cassaforte
+* Nuova vista Riepilogo con attività, note, documenti, Wallet, checklist e Cassaforte
 * Notifica globale opzionale da 1 a 7 giorni prima
 * Gestione personalizzabile del badge app
 * Promemoria basati sulla posizione
@@ -22,6 +22,8 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Stile delle righe delle attività completamente personalizzabile (angoli, bordi e materiali)
 * Evidenziazione intelligente delle attività importanti
 * Allegati completi (documenti, immagini, scansioni e audio)
+* Creazione, modifica e organizzazione di note con grassetto, corsivo, sottolineato ed elenchi puntati, con trattini e numerati
+* Condivisione e importazione di note da Note di Apple
 * Checklist di Viaggio organizzate in sezioni e basate su modelli personalizzabili
 * Modelli pronti all’uso per checklist
 * Importazione ed esportazione checklist
@@ -60,9 +62,9 @@ ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 
 La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio.
 
-La nuova vista Riepilogo raccoglie in un’unica schermata attività, documenti, Wallet, viaggi e Cassaforte.
+La nuova vista Riepilogo raccoglie in un’unica schermata attività, note, documenti, Wallet, viaggi e Cassaforte.
 
-Crea attività in modo naturale, arricchiscile con allegati, organizza documenti importanti, prepara checklist di viaggio e ricevi promemoria intelligenti al momento giusto.
+Crea attività in modo naturale, arricchiscile con allegati, crea note, organizza documenti importanti, prepara checklist di viaggio e ricevi promemoria intelligenti al momento giusto.
 
 Ogni attività genera automaticamente una notifica alla scadenza.
 
