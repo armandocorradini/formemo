@@ -1,6 +1,6 @@
 # ForMemo
 
-ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemoria, note, checklist di viaggio, documenti, carte fedeltà, biglietti e credenziali personali in modo semplice, intuitivo ed efficace.
+ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemoria, note, checklist di viaggi o progetti, documenti, carte fedeltà, biglietti e credenziali personali in modo semplice, intuitivo ed efficace.
 
 ## ✨ Funzionalità
 
@@ -24,7 +24,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Allegati completi (documenti, immagini, scansioni e audio)
 * Creazione, modifica e organizzazione di note con grassetto, corsivo, sottolineato ed elenchi puntati, con trattini e numerati
 * Condivisione e importazione di note da Note di Apple
-* Checklist di Viaggio organizzate in sezioni e basate su modelli personalizzabili
+* Checklist di Viaggi o progetti organizzate in sezioni e basate su modelli personalizzabili
 * Modelli pronti all’uso per checklist
 * Importazione ed esportazione checklist
 * Gestione documenti e scadenze
@@ -60,11 +60,11 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 
 ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 
-La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio.
+La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggi o Progetti.
 
-La nuova vista Riepilogo raccoglie in un’unica schermata attività, note, documenti, Wallet, viaggi e Cassaforte.
+La nuova vista Riepilogo raccoglie in un’unica schermata attività, note, documenti, Wallet, Checklist e Cassaforte.
 
-Crea attività in modo naturale, arricchiscile con allegati, crea note, organizza documenti importanti, prepara checklist di viaggio e ricevi promemoria intelligenti al momento giusto.
+Crea attività in modo naturale, arricchiscile con allegati, crea note, organizza documenti importanti, prepara checklist e ricevi promemoria intelligenti al momento giusto.
 
 Ogni attività genera automaticamente una notifica alla scadenza.
 
