@@ -1,6 +1,6 @@
 # ForMemo
 
-ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemoria, note, checklist di viaggi o progetti, documenti, carte fedeltà, biglietti e credenziali personali in modo semplice, intuitivo ed efficace.
+ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemoria, note, checklist di viaggio o progetto, documenti, carte fedeltà, biglietti e credenziali personali in modo semplice, intuitivo ed efficace.
 
 ## ✨ Funzionalità
 
@@ -24,7 +24,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Allegati completi (documenti, immagini, scansioni e audio)
 * Creazione, modifica e organizzazione di note con grassetto, corsivo, sottolineato ed elenchi puntati, con trattini e numerati
 * Condivisione e importazione di note da Note di Apple
-* Checklist di Viaggi o progetti organizzate in sezioni e basate su modelli personalizzabili
+* Checklist di Viaggio o progetto organizzate in sezioni e basate su modelli personalizzabili
 * Modelli pronti all’uso per checklist
 * Importazione ed esportazione checklist
 * Gestione documenti e scadenze
