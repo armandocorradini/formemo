@@ -60,7 +60,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 
 ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 
-La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggi o Progetti.
+La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio o Progetto.
 
 La nuova vista Riepilogo raccoglie in un’unica schermata attività, note, documenti, Wallet, Checklist e Cassaforte.
 
@@ -103,7 +103,7 @@ La funzione Riprogramma permette di spostare rapidamente una scadenza di ore o g
 
 A differenza dello Snooze, che ritarda temporaneamente una notifica, Riprogramma aggiorna direttamente la scadenza reale dell’attività. Per le attività già scadute è inoltre disponibile uno Snooze manuale che consente di posticipare rapidamente il promemoria senza modificare immediatamente la pianificazione.
 
-ForMemo include Checklist di Viaggio avanzate per vacanze, camper, auto, moto, bicicletta, trekking, fotografia e molte altre attività. Puoi creare modelli personalizzati, organizzare sezioni e condividere facilmente le checklist.
+ForMemo include Checklist di Viaggio avanzate per vacanze, camper, auto, moto, bicicletta, trekking, fotografia e molte altre attività. Puoi creare modelli personalizzati, organizzare sezioni e condividere facilmente le checklist. Puoi creare anche Checklist di progetto.
 
 La sezione Documenti consente di gestire passaporti, carte d’identità, patenti, assicurazioni, tessere e qualsiasi altro documento importante, monitorandone le scadenze, ricevendo promemoria automatici e associando una collocazione per individuarli rapidamente.
 
@@ -127,13 +127,13 @@ I backup possono includere anche i dati della Cassaforte. Durante la creazione d
 
 Durante il ripristino puoi scegliere di recuperare soltanto la Cassaforte oppure qualsiasi altra combinazione di dati dell'app.
 
-Puoi creare backup completi di attività, promemoria, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, carte fedeltà, loghi, tickets, checklist di viaggio, dati della Cassaforte e impostazioni dell’app.
+Puoi creare backup completi di attività, promemoria, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, carte fedeltà, loghi, tickets, checklist di viaggio o di progetto, dati della Cassaforte e impostazioni dell’app.
 
 Le impostazioni supportate includono preferenze di aspetto, opzioni meteo, impostazioni di navigazione, badge, gestione allegati e altre preferenze dell’app.
 
 È inoltre disponibile il restore selettivo, che permette di ripristinare soltanto le sezioni desiderate senza importare l’intero backup.
 
-Durante il ripristino puoi scegliere in modo indipendente quali dati recuperare, incluse attività, Cassaforte, carte fedeltà e tickets, checklist di viaggio, documenti e impostazioni dell’app.
+Durante il ripristino puoi scegliere in modo indipendente quali dati recuperare, incluse attività, Cassaforte, carte fedeltà e tickets, checklist di viaggio o di progetto, documenti e impostazioni dell’app.
 
 I backup sono indipendenti dalla sincronizzazione iCloud e possono essere utilizzati per trasferire facilmente dati e impostazioni su un altro dispositivo. I dati vengono archiviati sul dispositivo e, quando iCloud è disponibile, sincronizzati con il tuo account iCloud personale.
 
