@@ -6,6 +6,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 
 * Creazione rapida di attività
 * Promemoria intelligenti e notifiche alla scadenza
+* Sveglia opzionale alla scadenza
 * Promemoria anticipati personalizzabili
 * Dashboard con attività in ritardo, attività previste per oggi, attività imminenti, meteo ed elementi aperti di recente
 * Nuova vista Riepilogo con attività, note, documenti, Wallet, checklist e Cassaforte
@@ -15,7 +16,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Visualizzazione attività su mappa con pin interattivi
 * Supporto Snooze e Riprogramma
 * Snooze manuale per attività già scadute
-* Attività ricorrenti giornaliere, settimanali, mensili e annuali
+* Attività ricorrenti orarie, giornaliere, settimanali, mensili e annuali
 * Filtri avanzati per categoria, priorità e scadenza
 * Supporto alle attività senza scadenza
 * Vista Lista, 1–7 Giorni, Gruppi, Settimanale, Calendario e Mappa
@@ -66,7 +67,7 @@ La nuova vista Riepilogo raccoglie in un’unica schermata attività, note, docu
 
 Crea attività in modo naturale, arricchiscile con allegati, crea note, organizza documenti importanti, prepara checklist e ricevi promemoria intelligenti al momento giusto.
 
-Ogni attività genera automaticamente una notifica alla scadenza.
+Ogni attività genera automaticamente un avviso alla scadenza. Al momento della scadenza puoi scegliere se ricevere una notifica o una sveglia.
 
 Puoi aggiungere promemoria anticipati personalizzati oppure attivare una notifica globale da 1 a 7 giorni prima della scadenza per tutte le attività.
 
@@ -76,12 +77,13 @@ Grazie all’integrazione avanzata con Siri puoi creare attività, cercare task 
 
 ForMemo supporta attività ricorrenti con frequenza:
 
+* Oraria
 * Giornaliera
 * Settimanale
 * Mensile
 * Annuale
 
-Le attività ricorrenti vengono aggiornate automaticamente al completamento, generando la successiva occorrenza. Una nuova impostazione consente inoltre di scegliere se conservare la cronologia delle occorrenze completate oppure mantenere una sola attività, aggiornata di volta in volta alla ricorrenza successiva.
+Quando crei una ricorrenza, ForMemo crea le occorrenze selezionate come attività indipendenti. Ogni occorrenza può essere completata, modificata, riprogrammata o eliminata separatamente. Puoi definire quando la ricorrenza inizia, quando termina oppure quante occorrenze creare.
 
 Puoi associare una posizione a un’attività e ricevere automaticamente un promemoria quando arrivi a destinazione.
 
@@ -127,13 +129,13 @@ I backup possono includere anche i dati della Cassaforte. Durante la creazione d
 
 Durante il ripristino puoi scegliere di recuperare soltanto la Cassaforte oppure qualsiasi altra combinazione di dati dell'app.
 
-Puoi creare backup completi di attività, promemoria, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, carte fedeltà, loghi, tickets, checklist di viaggio o di progetto, dati della Cassaforte e impostazioni dell’app.
+Puoi creare backup completi di attività, promemoria, note, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, carte fedeltà, loghi, tickets, checklist di viaggio o di progetto, dati della Cassaforte e impostazioni dell’app.
 
 Le impostazioni supportate includono preferenze di aspetto, opzioni meteo, impostazioni di navigazione, badge, gestione allegati e altre preferenze dell’app.
 
 È inoltre disponibile il restore selettivo, che permette di ripristinare soltanto le sezioni desiderate senza importare l’intero backup.
 
-Durante il ripristino puoi scegliere in modo indipendente quali dati recuperare, incluse attività, Cassaforte, carte fedeltà e tickets, checklist di viaggio o di progetto, documenti e impostazioni dell’app.
+Durante il ripristino puoi scegliere in modo indipendente quali dati recuperare, incluse attività, note, Cassaforte, carte fedeltà e tickets, checklist di viaggio o di progetto, documenti e impostazioni dell’app.
 
 I backup sono indipendenti dalla sincronizzazione iCloud e possono essere utilizzati per trasferire facilmente dati e impostazioni su un altro dispositivo. I dati vengono archiviati sul dispositivo e, quando iCloud è disponibile, sincronizzati con il tuo account iCloud personale.
 
@@ -153,14 +155,15 @@ Puoi esportare attività verso Calendario Apple oppure nei formati CSV e ICS.
 
 ForMemo utilizza un sistema di notifiche progettato per essere affidabile e coerente:
 
-* Ogni attività genera una notifica alla scadenza
+* Ogni attività genera un avviso alla scadenza; puoi scegliere se ricevere una notifica o una sveglia
 * I promemoria anticipati sono opzionali e configurabili per singola attività
 * È possibile attivare una notifica globale per tutte le attività da 1 a 7 giorni prima
 * Il badge può aggiornarsi alla scadenza oppure al momento della notifica globale
 * Le notifiche Snooze rispettano la scadenza dell’attività
 * È disponibile uno Snooze manuale anche per le attività già scadute
 * Riprogramma modifica direttamente la scadenza reale
-* I promemoria vengono aggiornati automaticamente dopo ogni modifica
+* Per ogni attività viene inserita in coda solo la prossima notifica rilevante
+* Quando un evento viene attivato, il successivo evento rilevante per quell’attività viene determinato e inserito in coda in ordine cronologico con gli altri eventi programmati
 
 # 🔐 Permessi
 
