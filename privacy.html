@@ -69,18 +69,18 @@ strong{
 <p><strong>Versione documento:</strong> 2.2</p>
 
 <p>
-<strong>ForMemo</strong> ("l'app") è progettata per rispettare la tua privacy.
-L'app non raccoglie dati personali e non trasmette informazioni a server controllati dallo sviluppatore.
+<strong>ForMemo</strong> ("l'app") è progettata per rispettare la privacy degli utenti.
+ForMemo non gestisce server propri per raccogliere o conservare i dati personali degli utenti e non utilizza tali dati per finalità pubblicitarie o commerciali. Alcune funzionalità comportano la trasmissione di informazioni ai servizi Apple o a servizi di terze parti, come descritto nella presente informativa.
 </p>
 
 <h2>1. Raccolta dei dati</h2>
 
 <p>
-ForMemo non raccoglie, memorizza o condivide dati personali degli utenti su server esterni.
+ForMemo non gestisce server propri e non raccoglie dati personali per finalità pubblicitarie o commerciali. Alcune funzionalità, come le previsioni meteorologiche, richiedono la trasmissione di dati tecnici ai servizi esterni necessari al loro funzionamento.
 </p>
 
 <p>
-Tutti i dati vengono conservati esclusivamente sul dispositivo dell'utente oppure, se abilitato, tramite i servizi Apple utilizzati per la sincronizzazione.
+I dati gestiti dall'app vengono conservati sul dispositivo dell'utente oppure, se abilitata, tramite i servizi Apple utilizzati per la sincronizzazione. Alcune informazioni tecniche, come le coordinate geografiche necessarie alle previsioni meteorologiche, possono essere trasmesse ai servizi esterni descritti nella presente informativa.
 </p>
 
 <h2>2. Dati inseriti dall'utente</h2>
@@ -125,7 +125,7 @@ Se l'utente abilita la sincronizzazione tramite iCloud, i dati possono essere si
 </p>
 
 <p>
-Lo sviluppatore non ha accesso ai dati memorizzati.
+Lo sviluppatore non gestisce server propri destinati alla raccolta o alla conservazione dei dati memorizzati dagli utenti. I dati sincronizzati tramite iCloud sono gestiti attraverso i servizi Apple.
 </p>
 
 <h2>3. Accesso a Calendario e Promemoria</h2>
@@ -138,9 +138,7 @@ Su richiesta dell'utente, ForMemo può accedere alle app Apple Calendario e Prom
 
 <li>L'accesso richiede l'autorizzazione esplicita dell'utente.</li>
 
-<li>I dati vengono utilizzati esclusivamente all'interno dell'app.</li>
-
-<li>Nessun dato viene inviato a server controllati dallo sviluppatore.</li>
+<li>I dati vengono utilizzati per le operazioni di importazione ed esportazione richieste dall'utente e non vengono inviati a server controllati dallo sviluppatore.</li>
 
 <li>L'autorizzazione può essere revocata in qualsiasi momento dalle impostazioni di iOS.</li>
 
@@ -353,8 +351,7 @@ La Cassaforte include inoltre:
 </ul>
 
 <ul>
-
-<li>I dati rimangono esclusivamente sul dispositivo oppure nei servizi Apple scelti per la sincronizzazione.</li>
+<li>I dati della Cassaforte sono conservati sul dispositivo oppure, se abilitata, sincronizzati tramite i servizi Apple. Possono essere esportati dall'utente mediante le funzionalità previste dall'app.</li>
 
 <li>Le credenziali sono protette tramite crittografia AES-256.</li>
 
@@ -399,13 +396,6 @@ Le notifiche e il badge dipendono dal sistema operativo e dalle impostazioni del
 </p>
 
 <p>
-ForMemo gestisce gli eventi programmati attraverso una coda cronologica,
-rispettando i limiti imposti da iOS. Quando un evento viene consegnato
-e si libera uno spazio, l'app programma il successivo evento previsto
-in ordine cronologico.
-</p>
-
-<p>
 L'utente può disattivare le notifiche in qualsiasi momento dalle impostazioni di iOS.
 </p>
 
@@ -433,7 +423,7 @@ Su richiesta dell'utente, ForMemo può utilizzare la posizione del dispositivo p
 
 <li>I dati di posizione non vengono memorizzati su server controllati dallo sviluppatore.</li>
 
-<li>Per ottenere le previsioni meteo può essere inviata una posizione approssimativa al provider meteorologico utilizzato.</li>
+<li>Per ottenere le previsioni meteorologiche, ForMemo trasmette al servizio Open-Meteo le coordinate geografiche rilevate dal dispositivo, necessarie per individuare la località delle previsioni. Le richieste comprendono anche il servizio di qualità dell'aria.</li>
 
 <li>Il monitoraggio della posizione è gestito da iOS.</li>
 
@@ -457,7 +447,7 @@ Su richiesta dell'utente, ForMemo può utilizzare la fotocamera del dispositivo 
 </ul>
 
 <p>
-Le immagini e i dati acquisiti vengono utilizzati esclusivamente all'interno dell'app e non vengono trasmessi a server controllati dallo sviluppatore.
+Le immagini e i dati acquisiti vengono utilizzati per le funzionalità dell'app. Possono essere esportati o condivisi dall'utente mediante le funzionalità disponibili nel dispositivo. ForMemo non li trasmette a server controllati dallo sviluppatore.
 </p>
 
 <h2>10. Assistente vocale (Siri)</h2>
@@ -472,86 +462,102 @@ Lo sviluppatore non riceve né conserva i dati vocali dell'utente.
 </p>
 
 <h2>11. Servizi di terze parti</h2>
-
+    
 <p>
-Per offrire alcune funzionalità, l'app può utilizzare servizi Apple e servizi di terze parti.
+Per offrire alcune funzionalità, ForMemo utilizza servizi Apple e servizi di terze parti.
 </p>
 
 <ul>
 
 <li>
 <strong>Apple iCloud</strong><br>
-Sincronizzazione dei dati tra dispositivi dell'utente.
+Utilizzato per la sincronizzazione dei dati tra i dispositivi dell'utente, quando la sincronizzazione è disponibile e attiva.
 </li>
 
 <li>
 <strong>Apple Maps</strong> oppure altre applicazioni di navigazione installate dall'utente.<br>
-Navigazione verso le posizioni salvate.
+Utilizzate per visualizzare le posizioni salvate e avviare la navigazione, su richiesta dell'utente.
 </li>
 
 <li>
-<strong>Open-Meteo (o altro provider meteorologico compatibile)</strong><br>
-Previsioni meteorologiche utilizzate dalla sezione Meteo, dalla Dashboard e dalle viste delle attività.
+<strong>Open-Meteo</strong><br>
+Utilizzato per fornire previsioni meteorologiche e informazioni sulla qualità dell'aria nella sezione Meteo, nella Dashboard e nelle viste delle attività.
 </li>
 
 </ul>
 
 <p>
-Per ottenere le previsioni meteo può essere trasmessa una posizione approssimativa esclusivamente al servizio meteorologico utilizzato.
+Per ottenere le informazioni meteorologiche e sulla qualità dell'aria, ForMemo invia al servizio Open-Meteo le coordinate geografiche (latitudine e longitudine) rilevate dal dispositivo.
 </p>
 
 <p>
-Ogni servizio opera secondo la propria Informativa sulla Privacy e le proprie Condizioni di utilizzo.
+Le coordinate vengono utilizzate per individuare la località a cui si riferiscono le previsioni richieste. La trasmissione avviene quando viene utilizzata la funzionalità meteorologica.
+</p>
+
+<p>
+I servizi Apple e i servizi di terze parti operano secondo le rispettive Informative sulla Privacy e Condizioni di utilizzo.
 </p>
 
 <h2>12. Condivisione dei dati</h2>
 
 <p>
-ForMemo non vende, concede in licenza né condivide dati personali con terze parti per finalità commerciali o pubblicitarie.
+ForMemo non vende né concede in licenza i dati personali degli utenti e non li condivide con terze parti per finalità commerciali o pubblicitarie.
 </p>
 
 <p>
-I dati possono essere condivisi esclusivamente quando richiesto direttamente dall'utente mediante funzionalità come:
+Alcuni dati possono essere trasmessi a servizi esterni esclusivamente per consentire il funzionamento delle funzionalità richieste o utilizzate dall'utente, come descritto nella presente informativa.
+</p>
+
+<p>
+In particolare:
 </p>
 
 <ul>
 
-<li>esportazione dei dati;</li>
+<li>
+<strong>Open-Meteo:</strong> riceve le coordinate geografiche (latitudine e longitudine) del dispositivo per fornire previsioni meteorologiche e informazioni sulla qualità dell'aria.
+</li>
 
-<li>backup;</li>
+<li>
+<strong>Servizi Apple:</strong> possono trattare i dati necessari alla sincronizzazione iCloud e alle funzionalità di sistema utilizzate dall'app.
+</li>
 
-<li>ripristino;</li>
-
-<li>sincronizzazione tramite servizi Apple.</li>
+<li>
+<strong>Condivisione ed esportazione:</strong> i dati possono essere trasferiti ad altre applicazioni o servizi quando l'utente avvia esplicitamente un'operazione di condivisione, esportazione o backup.
+</li>
 
 </ul>
 
 <h2>13. Conservazione dei dati</h2>
 
 <p>
-I dati rimangono esclusivamente:
+I dati inseriti e gestiti da ForMemo vengono conservati principalmente:
 </p>
 
 <ul>
 
 <li>sul dispositivo dell'utente;</li>
 
-<li>nei servizi Apple eventualmente utilizzati per la sincronizzazione.</li>
+<li>nei servizi Apple utilizzati per la sincronizzazione, quando questa è attiva.</li>
 
 </ul>
 
 <p>
-I backup creati dall'utente vengono salvati esclusivamente nella posizione scelta durante l'esportazione.
+Le informazioni trasmesse a servizi di terze parti, come le coordinate geografiche inviate a Open-Meteo per le funzionalità meteorologiche, sono trattate secondo le modalità e i tempi di conservazione stabiliti dai rispettivi fornitori.
 </p>
 
 <p>
-L'utente può eliminare in qualsiasi momento tutti i propri dati utilizzando le funzionalità dell'app oppure rimuovendo ForMemo dal dispositivo.
+I backup creati dall'utente vengono salvati nella posizione scelta durante l'esportazione. La loro conservazione dipende anche dal servizio o dal supporto utilizzato.
+</p>
+
+<p>
+L'utente può eliminare i dati presenti nell'app utilizzando le relative funzionalità. La rimozione dell'app dal dispositivo non garantisce necessariamente la cancellazione delle copie eventualmente presenti nei servizi Apple, nei backup o nei servizi di terze parti.
 </p>
 
 <h2>14. Sicurezza</h2>
 
 <p>
-La sicurezza dei dati si basa principalmente sulle tecnologie di protezione offerte da iOS e dalle API di sicurezza fornite da Apple.
+ForMemo utilizza le funzionalità di sicurezza offerte da iOS e le API di protezione messe a disposizione da Apple per proteggere i dati gestiti dall'app.
 </p>
 
 <p>
@@ -562,13 +568,11 @@ Per la Cassaforte ForMemo utilizza:
 
 <li>crittografia AES-256;</li>
 
-<li>Keychain di iOS;</li>
+<li>gestione delle chiavi crittografiche tramite il Portachiavi (Keychain) di iOS;</li>
 
-<li>Face ID;</li>
+<li>autenticazione tramite Face ID o Touch ID, quando disponibile e configurata;</li>
 
-<li>Touch ID;</li>
-
-<li>codice di sblocco del dispositivo.</li>
+<li>codice di sblocco del dispositivo, secondo le funzionalità di sicurezza previste da iOS.</li>
 
 </ul>
 
@@ -577,17 +581,17 @@ Le credenziali della Cassaforte non vengono trasmesse a server controllati dallo
 </p>
 
 <p>
-Quando incluse nei backup, le credenziali sono protette dalla password scelta esclusivamente dall'utente.
+Quando i dati della Cassaforte vengono inclusi in un backup, sono protetti mediante la password scelta dall'utente e tramite i meccanismi crittografici previsti dall'app.
 </p>
 
 <p>
-Lo sviluppatore non conserva copie remote dei dati degli utenti e non può recuperare la password utilizzata per proteggere i backup della Cassaforte.
+La password utilizzata per proteggere il backup della Cassaforte non viene trasmessa allo sviluppatore, che non può recuperarla in caso di smarrimento.
 </p>
 
 <h2>15. Diritti dell'utente</h2>
 
 <p>
-L'utente può in qualsiasi momento:
+L'utente può, nei limiti delle funzionalità disponibili nell'app e dei servizi utilizzati:
 </p>
 
 <ul>
@@ -596,7 +600,7 @@ L'utente può in qualsiasi momento:
 
 <li>modificare i propri dati;</li>
 
-<li>eliminare i propri dati;</li>
+<li>eliminare i dati gestiti dall'app;</li>
 
 <li>esportare i propri dati;</li>
 
@@ -606,18 +610,26 @@ L'utente può in qualsiasi momento:
 
 <li>creare backup completi protetti da password;</li>
 
-<li>revocare i permessi concessi all'app tramite le impostazioni del dispositivo.</li>
+<li>revocare i permessi concessi a ForMemo tramite le impostazioni del dispositivo.</li>
 
 </ul>
+
+<p>
+Per esercitare i diritti relativi ai dati eventualmente trattati da Apple o da servizi di terze parti, l'utente può fare riferimento alle procedure e alle informative dei rispettivi fornitori.
+</p>
 
 <h2>16. Modifiche alla Privacy Policy</h2>
 
 <p>
-La presente Privacy Policy può essere aggiornata periodicamente per riflettere nuove funzionalità dell'app, modifiche normative o miglioramenti del servizio.
+La presente Privacy Policy può essere aggiornata periodicamente per descrivere nuove funzionalità di ForMemo, modifiche ai servizi utilizzati o variazioni delle disposizioni normative applicabili.
 </p>
 
 <p>
-Ogni nuova versione sarà pubblicata su questa pagina e diventerà efficace dalla data di aggiornamento riportata all'inizio del documento.
+La versione aggiornata sarà pubblicata su questa pagina, con indicazione della data dell'ultimo aggiornamento e del numero di versione del documento.
+</p>
+
+<p>
+Le modifiche entreranno in vigore dalla data indicata nella nuova versione della Privacy Policy.
 </p>
 
 <h2>17. Contatti</h2>
