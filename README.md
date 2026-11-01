@@ -19,12 +19,13 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Attività ricorrenti orarie, giornaliere, settimanali, mensili e annuali
 * Filtri avanzati per categoria, priorità e scadenza
 * Supporto alle attività senza scadenza
-* Vista Lista, 1–7 Giorni, Gruppi, Settimanale, Calendario e Mappa
+* Vista Lista, Giorno, 1–7 Giorni, Gruppi, Settimanale, Calendario e Mappa
 * Stile delle righe delle attività completamente personalizzabile (angoli, bordi e materiali)
 * Evidenziazione intelligente delle attività importanti
 * Allegati completi (documenti, immagini, scansioni e audio)
 * Creazione, modifica e organizzazione di note con grassetto, corsivo, sottolineato ed elenchi puntati, con trattini e numerati
 * Condivisione e importazione di note da Note di Apple
+* Widget per accedere rapidamente alle principali funzionalità di ForMemo dalla schermata Home
 * Checklist di Viaggio o progetto organizzate in sezioni e basate su modelli personalizzabili
 * Modelli pronti all’uso per checklist
 * Importazione ed esportazione checklist
@@ -33,14 +34,12 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Possibilità di allegare ai documenti immagini, foto, scansioni e pdf.
 * Cassaforte per password, siti web, email, nomi utente, PIN, segreti OTP, note e segreti personalizzati
 * Inserimento automatico delle credenziali nelle app e nei siti web supportati
-* Importazione delle credenziali da gestori di password compatibili
-* Generatore di password, categorie, preferiti, monitoraggio aggiornamenti e scadenze delle password
+* Generatore di password, categorie e preferiti, monitoraggio aggiornamenti e scadenze delle password
 * Importazione di credenziali da gestori di password compatibili
 * Organizzazione delle credenziali in categorie e preferiti
 * Autenticazione biometrica e blocco automatico della Cassaforte
 * Cancellazione automatica delle password copiate negli appunti
-* Backup completo con protezione della Cassaforte tramite password
-* Ripristino selettivo della sola Cassaforte
+* Backup completo e ripristino selettivo di dati, impostazioni e Cassaforte protetta da password
 * Previsioni meteo integrate
 * Wallet per carte fedeltà e biglietti, con barcode, QR Code e una o più foto per ogni elemento.
 * Scansione barcode tramite fotocamera
@@ -64,6 +63,14 @@ ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio o Progetto.
 
 La nuova vista Riepilogo raccoglie in un’unica schermata attività, note, documenti, Wallet, Checklist e Cassaforte.
+
+## 📝 Note
+
+ForMemo include una sezione dedicata alle note, separata dalle attività. Puoi creare, modificare e organizzare i tuoi appunti utilizzando la formattazione del testo, il grassetto, il corsivo, il sottolineato e gli elenchi puntati, con trattini e numerati. Puoi inoltre condividere le note, importarle da Note di Apple e utilizzare Siri per crearle.
+
+## Widget
+
+I widget di ForMemo permettono di visualizzare informazioni sulle attività e accedere rapidamente alle funzionalità disponibili direttamente dalla schermata Home di iPhone.
 
 Crea attività in modo naturale, arricchiscile con allegati, crea note, organizza documenti importanti, prepara checklist e ricevi promemoria intelligenti al momento giusto.
 
@@ -95,7 +102,9 @@ Le previsioni meteo integrate permettono di consultare rapidamente le condizioni
 
 I filtri avanzati consentono di individuare rapidamente attività per categoria, priorità, periodo di scadenza, attività scadute o attività senza scadenza. Più filtri possono essere combinati contemporaneamente.
 
-Le viste Lista, Gruppi, Settimanale e Calendario offrono modalità diverse per organizzare e consultare le tue attività.
+Le viste Lista, Giorno, Gruppi, Settimanale e Calendario offrono modalità diverse per organizzare e consultare le tue attività.
+
+La nuova vista Giorno organizza le attività in una timeline giornaliera, mostrando gli impegni in base all'orario previsto. Puoi scegliere intervalli di 30 minuti, 1 ora o 2 ore, regolare l'altezza delle righe e nascondere le ore notturne. Le attività possono essere gestite direttamente dalla vista, completandole o riprogrammandole rapidamente.
 
 Puoi personalizzare completamente l’aspetto delle righe delle attività scegliendo angoli arrotondati, bordi, materiali e diversi stili grafici, adattando l’interfaccia alle tue preferenze.
 
@@ -109,7 +118,7 @@ ForMemo include Checklist di Viaggio avanzate per vacanze, camper, auto, moto, b
 
 La sezione Documenti consente di gestire passaporti, carte d’identità, patenti, assicurazioni, tessere e qualsiasi altro documento importante, monitorandone le scadenze, ricevendo promemoria automatici e associando una collocazione per individuarli rapidamente.
 
-Il Wallet integrato permette di salvare e organizzare carte fedeltà con barcode sempre disponibili e facilmente accessibili.
+Il Wallet integrato permette di salvare e organizzare carte fedeltà e biglietti, con barcode e QR Code sempre disponibili, scansione tramite fotocamera e possibilità di associare una o più foto a ogni elemento.
 
 ## 🔐 Cassaforte
 
@@ -162,8 +171,8 @@ ForMemo utilizza un sistema di notifiche progettato per essere affidabile e coer
 * Le notifiche Snooze rispettano la scadenza dell’attività
 * È disponibile uno Snooze manuale anche per le attività già scadute
 * Riprogramma modifica direttamente la scadenza reale
-* Per ogni attività viene inserita in coda solo la prossima notifica rilevante
-* Quando un evento viene attivato, il successivo evento rilevante per quell’attività viene determinato e inserito in coda in ordine cronologico con gli altri eventi programmati
+* Gli eventi vengono programmati in un'unica coda cronologica, nel rispetto del limite massimo di notifiche programmabili da iOS
+* Quando un evento viene consegnato e si libera uno spazio, ForMemo inserisce nella coda il successivo evento previsto in ordine cronologico tra quelli ancora da programmare
 
 # 🔐 Permessi
 
