@@ -19,7 +19,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Attività ricorrenti orarie, giornaliere, settimanali, mensili e annuali
 * Filtri avanzati per categoria, priorità e scadenza
 * Supporto alle attività senza scadenza
-* Vista Lista, Giorno, 1–7 Giorni, Gruppi, Settimanale, Calendario e Mappa
+* Vista Lista, Agenda, 1–7 Giorni, Gruppi, Settimanale, Calendario e Mappa
 * Stile delle righe delle attività completamente personalizzabile (angoli, bordi e materiali)
 * Evidenziazione intelligente delle attività importanti
 * Allegati completi (documenti, immagini, scansioni e audio)
@@ -102,9 +102,9 @@ Le previsioni meteo integrate permettono di consultare rapidamente le condizioni
 
 I filtri avanzati consentono di individuare rapidamente attività per categoria, priorità, periodo di scadenza, attività scadute o attività senza scadenza. Più filtri possono essere combinati contemporaneamente.
 
-Le viste Lista, Giorno, Gruppi, Settimanale e Calendario offrono modalità diverse per organizzare e consultare le tue attività.
+Le viste Lista, Agenda, Gruppi, Settimanale e Calendario offrono modalità diverse per organizzare e consultare le tue attività.
 
-La nuova vista Giorno organizza le attività in una timeline giornaliera, mostrando gli impegni in base all'orario previsto. Puoi scegliere intervalli di 30 minuti, 1 ora o 2 ore, regolare l'altezza delle righe e nascondere le ore notturne. Le attività possono essere gestite direttamente dalla vista, completandole o riprogrammandole rapidamente.
+La nuova vista Agenda organizza le attività in una timeline giornaliera, mostrando gli impegni in base all'orario previsto. Puoi scegliere intervalli di 30 minuti, 1 ora, 2 ore o 3 ore, regolare l'altezza delle righe e nascondere le ore notturne. Le attività possono essere gestite direttamente dalla vista, completandole o riprogrammandole rapidamente.
 
 Puoi personalizzare completamente l’aspetto delle righe delle attività scegliendo angoli arrotondati, bordi, materiali e diversi stili grafici, adattando l’interfaccia alle tue preferenze.
 
