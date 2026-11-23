@@ -8,7 +8,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Promemoria intelligenti e notifiche alla scadenza
 * Sveglia opzionale alla scadenza
 * Promemoria anticipati personalizzabili
-* Dashboard con attività in ritardo, attività previste per oggi, attività imminenti, meteo ed elementi aperti di recente
+* Dashboard con attività in ritardo, attività previste per oggi, attività imminenti ed elementi aperti di recente
 * Nuova vista Riepilogo con attività, note, documenti, Wallet, checklist e Cassaforte
 * Notifica globale opzionale da 1 a 7 giorni prima
 * Gestione personalizzabile del badge app
@@ -40,7 +40,6 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 * Autenticazione biometrica e blocco automatico della Cassaforte
 * Cancellazione automatica delle password copiate negli appunti
 * Backup completo e ripristino selettivo di dati, impostazioni e Cassaforte protetta da password
-* Previsioni meteo integrate
 * Wallet per carte fedeltà e biglietti, con barcode, QR Code e una o più foto per ogni elemento.
 * Scansione barcode tramite fotocamera
 * Backup completo con allegati inclusi
@@ -60,7 +59,7 @@ ForMemo è un'app iOS progettata per aiutarti a organizzare attività, promemori
 
 ForMemo ti aiuta a catturare, organizzare e ricordare ciò che conta davvero.
 
-La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti, previsioni meteo ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio o Progetto.
+La Dashboard integrata offre una panoramica immediata di ciò che richiede la tua attenzione. In un’unica schermata puoi visualizzare attività in ritardo, attività previste per oggi, attività imminenti ed elementi aperti di recente da Wallet, Documenti e Checklist di Viaggio o Progetto.
 
 La nuova vista Riepilogo raccoglie in un’unica schermata attività, note, documenti, Wallet, Checklist e Cassaforte.
 
@@ -98,7 +97,6 @@ Anche i documenti possono essere trovati facilmente salvando la posizione in cui
 
 Le attività con posizione possono essere visualizzate su una mappa interattiva con pin dedicati e accesso rapido ai dettagli.
 
-Le previsioni meteo integrate permettono di consultare rapidamente le condizioni previste direttamente nelle viste attività.
 
 I filtri avanzati consentono di individuare rapidamente attività per categoria, priorità, periodo di scadenza, attività scadute o attività senza scadenza. Più filtri possono essere combinati contemporaneamente.
 
@@ -140,7 +138,7 @@ Durante il ripristino puoi scegliere di recuperare soltanto la Cassaforte oppure
 
 Puoi creare backup completi di attività, promemoria, note, regole di ricorrenza, tag, priorità, posizioni, allegati, documenti, carte fedeltà, loghi, tickets, checklist di viaggio o di progetto, dati della Cassaforte e impostazioni dell’app.
 
-Le impostazioni supportate includono preferenze di aspetto, opzioni meteo, impostazioni di navigazione, badge, gestione allegati e altre preferenze dell’app.
+Le impostazioni supportate includono preferenze di aspetto, preferenze dell’app relative alle impostazioni supportate, impostazioni di navigazione, badge, gestione allegati e altre preferenze dell’app.
 
 È inoltre disponibile il restore selettivo, che permette di ripristinare soltanto le sezioni desiderate senza importare l’intero backup.
 
@@ -156,9 +154,8 @@ Puoi esportare attività verso Calendario Apple oppure nei formati CSV e ICS.
 
 **Nota:** i dati della Cassaforte sono protetti durante il ripristino da una password scelta al momento della creazione del backup. Tale password non può essere recuperata.
 
-**Nota:** i promemoria basati sulla posizione richiedono l’autorizzazione alla localizzazione "Sempre".
+**Nota:** i promemoria basati sulla posizione richiedono le autorizzazioni di localizzazione necessarie al relativo funzionamento, inclusa l’autorizzazione in background quando richiesta da iOS.
 
-**Nota:** le previsioni meteo richiedono l’autorizzazione alla localizzazione.
 
 # 🔔 Notifiche
 
@@ -183,14 +180,14 @@ ForMemo può richiedere l’accesso a:
 * Notifiche → per ricordarti attività e scadenze
 * Fotocamera → per scansionare documenti, barcode, carte fedeltà e allegare immagini
 * Libreria foto → per selezionare immagini da allegare alle attività
-* Posizione → per associare luoghi alle attività, visualizzare il meteo e ricevere promemoria all’arrivo
+* Posizione → per associare luoghi alle attività, visualizzarle sulla mappa e ricevere promemoria all’arrivo
 * Microfono → per funzionalità di input vocale
 * Siri → per creare e cercare attività tramite comandi vocali
 * Inserimento automatico → per compilare automaticamente le credenziali salvate nella Cassaforte nelle app e nei siti web compatibili
 
-L’accesso è completamente opzionale e avviene solo previa autorizzazione dell’utente.
+Le autorizzazioni vengono richieste quando necessarie alle funzionalità utilizzate e possono essere gestite dalle impostazioni di iOS.
 
-I dati vengono gestiti all’interno dell’app e, quando iCloud è disponibile, sincronizzati con il tuo account iCloud personale. ForMemo non gestisce server propri e non accede ai tuoi dati.
+I dati sono gestiti dall’app sul dispositivo e, se la sincronizzazione iCloud è attiva, tramite i servizi Apple. Alcune funzioni di sistema, come mappe, ricerca di luoghi e promemoria basati sulla posizione, possono comportare il trattamento di dati da parte di Apple secondo le relative informative. ForMemo non utilizza un proprio account utente.
 
 # 🛠 Supporto
 
@@ -202,4 +199,4 @@ Per supporto o segnalazioni:
 
 Leggi la nostra Privacy Policy:
 
-👉 https://armandocorradini.github.io/formemo/privacy.html
+👉 https://armandocorradini.github.io/formemo/
